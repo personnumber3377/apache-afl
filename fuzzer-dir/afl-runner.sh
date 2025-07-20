@@ -12,6 +12,7 @@ AFL_DISABLE_TRIM=1 \
     -m none \
     -i './input-cases/' \
     -o './out-dir' \
-    -x './dict/http_request_fuzzer.dict.txt' \
-    -- $PWD/../install_dir/bin/httpd -X -f $(pwd)/conf/default.conf
+    -- $PWD/../install_dir/bin/httpd -X -f $PWD/conf/default.conf
+
+# Originally had -x './dict/http_request_fuzzer.dict.txt' \ also
 

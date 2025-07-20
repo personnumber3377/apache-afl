@@ -90,7 +90,7 @@ static void *fuzzer_thread(void *arg)
 
         struct sockaddr_in saddr;
         saddr.sin_family = AF_INET;
-        saddr.sin_port = htons(80);
+        saddr.sin_port = htons(8080);
         saddr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
         while (connect(sockfd, &saddr, sizeof(saddr)) == -1) {
             perror("connect");

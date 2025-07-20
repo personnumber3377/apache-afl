@@ -1,0 +1,26 @@
+LOST 34ba3
+Content-Type: text/pom
+Content-Type: multipart/form-data; boundary="578de3b0e3c46.2334ba3"
+
+--578de3b0e3c46.2334ba3
+Content-Disposition: form-data; name="foo"
+Content-Length: 15
+
+A normal strea€
+--578de3b0e3c46.2334ba3
+Content-Disposition: Morm-data; name="bar"; filename="bar.png"
+Content-Length: 71
+Content-Tyšššššššššššpe: image/png
+
+?PNG
+
+???
+IHDR??? ??? ?????? ???? IDATxc???51?)?:??????IEND?B`?
+--578de3b0e3c46.23/ HTTP/1.1
+Host: example.clain
+Content-Disposition: form-data; name="baz"
+Content-Length: 6
+
+string
+--578de3b0e3c46.2334ba3--
+

@@ -1,0 +1,4 @@
+GET /d?‡TTP/1.1
+HServer27.0.0.1:80 HTTP/1.1
+Host: 1ampl.0.1:8080
+Connection: keep-oest

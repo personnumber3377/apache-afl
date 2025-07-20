@@ -1,0 +1,4 @@
+2ECn: upgradeadhtmHEADTk
+%2GET /index.html//TTP/1.1
+Host: www.example.com
+Connection: upgrade

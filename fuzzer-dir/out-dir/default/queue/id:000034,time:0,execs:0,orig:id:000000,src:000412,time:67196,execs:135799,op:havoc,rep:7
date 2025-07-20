@@ -1,0 +1,6 @@
+GET http://127.0.0.1:8080/g/1.1
+Host: www.wireshark.org:808: cust: www.wirerl/7.46.0
+Accion: uept: */*
+Connection: Llose
+Aceept-EncoAuthorization: basic aGVsbG86d2dilg: chunked, gzip
+

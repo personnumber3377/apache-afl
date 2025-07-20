@@ -1,0 +1,4 @@
+GET /index.html HTTP/1.1
+Host: www.example5com
+Connection: upgtml HTTP/1.1
+Host: www.exampl

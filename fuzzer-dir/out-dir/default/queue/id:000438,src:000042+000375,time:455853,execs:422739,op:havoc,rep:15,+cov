@@ -1,0 +1,17 @@
+POST / HTTP/1.1
+Host: example.com
+Content-Type: multipart/form-data; b‰undary="578de3b0e3c4J.2de3b0e3c46.2334ba3
+Content-Dispositch-User: ?1
+Sec-Feiod: form-data; Tame="foo"
+Content-Length: 15
+
+A normal streamimage/pppng,*/*;q--578de3b0e3c46.2334ba3
+Co___ß___________________ntent-Disposition: form-data; nabe="bar"; fi923472498234723498324724298234792348234792348234792497234998234792349823479234983247923498234972349234247294723942394724218446??IEND?'`?
+--578de3b0e3c46.2334ba3
+Content-Type: text/plain
+Content-Disposition: form-data; name="baz"
+Content-Length: 6
+
+string
+--578de3b0e3c46.2334ba3--
+

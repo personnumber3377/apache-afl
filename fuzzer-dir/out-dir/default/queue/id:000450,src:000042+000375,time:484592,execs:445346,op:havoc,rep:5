@@ -1,0 +1,19 @@
+POST / HTTP/1.1
+Host: example.com
+Content-Type: multipart/form-data; boundary="578de3b0e3c46.2334ba3"9234724982347234983247242982347923482347923482347924972349982347923498234792349832479234982349723492342472947239423947242184466.2334ba3
+Content-Disposition: form-data; name="bar"; filename="bar.png"
+Content-Length: 71
+Content-Type: image/png
+
+?PNG
+
+???
+IHDR??? ??? ?????? ???? IDATxc???51?)?:??????HEND?B`?
+--578de3b0e3c46.2334b0e3c46.2334ba3--
+text/plain
+Content-Disposition: form-data; name="bzz"
+Co8324792349823497
+
+string
+--578de3ba3
+Content-Type: 

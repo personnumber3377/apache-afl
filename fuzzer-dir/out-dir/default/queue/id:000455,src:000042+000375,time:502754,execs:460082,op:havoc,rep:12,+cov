@@ -1,0 +1,26 @@
+Lynx / HTTP/1.1
+Host: example.com
+Content-Type: multipart/form-data; boundary="578de3b0e3c46.2334ba3"
+
+--578de3b0e3c46.2R34ba3
+Content-Disposition: form-data; namu="foo"
+Content-Length: 1K
+
+A normal stream
+--ent-Type: text/plain
+Conteent-Disposition: form-data; name="bar"; filename="bar.png"
+Content-Length: 71
+Content-Type: image/png
+
+?PNG
+
+???
+IHDR??? ??? ?????? ???? IDATxc???51?)?:??????IEND?B`?
+--578de3b0e3c46.2334ba3
+Cont578de
+Connecthon: upgrade
+3b0e3c46.2334ba3
+Contnt-Dispositiïn: fcrm-data; name="baz"
+Content-Leng\h:::::::::ring
+--578de3b0e3c46.2334ba3--
+

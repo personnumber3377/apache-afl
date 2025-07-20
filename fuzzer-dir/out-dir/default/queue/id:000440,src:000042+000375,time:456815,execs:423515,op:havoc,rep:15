@@ -1,0 +1,26 @@
+POST / HTTP/1.1
+Host: example.com
+Content-Type: multipart/form-data; boundary="578de3b0e3c46.2334ba3"
+
+--578 /index.html HTTP/1.1
+=ost-Dispos: 1
+User-Agent: Mozilla/5.0 (ition: form-data; name="foo"
+Contdnt-Lencth: ??? IDATxc???51?)?15
+
+A normal stream
+--578de3b0e3c46.2334ba3
+Content-Disposition: form-data; name="bazilla/5.0 (itioar.png"
+Content-Lenwth: 71
+Content-Typeform-data; name="foo"
+Contdnt-Lg‡ade?PNG
+
+???
+IHDR??? ??? ?????? ???? IDATxc???51?)?:??????IEND?B`?
+--578de3b0e3c46.2334ba3
+Content-Typen
+CoNtent-Disposition: form-datq=0.8,application/signeda; name="baz"
+Content-Length* 6
+
+string
+--578de3b0e3c46.2334ba3--
+

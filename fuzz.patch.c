@@ -21,6 +21,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <sys/mount.h>
 
 static void netIfaceUp(const char *ifacename)
 {
@@ -60,7 +61,7 @@ void unsh(void)
     netIfaceUp("lo");
 }
 
-static void fuzzer_thread(void)
+static void *fuzzer_thread(void *arg)
 {
     int BUFSIZE=1024*1024;
     usleep(10000);
@@ -117,6 +118,7 @@ static void fuzzer_thread(void)
     printf("[+] Done\n");
     usleep(100000);
     exit(0);
+    return NULL; // Must be here...
 }
 
 static void launch_fuzzy_thread(void)

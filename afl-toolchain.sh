@@ -6,14 +6,16 @@ apt-get install -y brotli libbrotli-dev libxml2-dev libssl-dev wget curl
 
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 
-mkdir -p /usr/local/apache_lab/
-PREFIX=/usr/local/apache_lab/
+# mkdir -p /usr/local/apache_lab/
+# PREFIX=/usr/local/apache_lab/
+mkdir -p $PWD/install_dir/
+PREFIX=$PWD/install_dir/
 
 ## Download Apache httpd
 # -----------------------------
-wget https://archive.apache.org/dist/httpd/httpd-2.4.52.tar.gz
-tar -xvzf httpd-2.4.52.tar.gz && rm httpd-2.4.52.tar.gz
-cd ./httpd-2.4.52/
+wget https://archive.apache.org/dist/httpd/httpd-2.4.64.tar.gz
+tar -xvzf httpd-2.4.64.tar.gz && rm httpd-2.4.64.tar.gz
+cd ./httpd-2.4.64/
 
 
 # handling dependencies 
@@ -65,13 +67,21 @@ cd ../
 # apply hot-patching to enable fuzzing via AFL
 chmod +x ../insert-fuzz.py
 ../insert-fuzz.py
+# Check the return value...
+if [ $? -ne 0 ]; then
+    echo "insert-fuzz.py failed!"
+    exit 1
+fi
 
 # configure compiler, flags and DSOs/apache modules
+export PATH="$PREFIX/pcre/bin:$PATH"
+export PREFIX=/home/oof/apache-afl/install_dir/
+PREFIX=/home/oof/apache-afl/install_dir/ \
 CC=afl-clang-fast \
 CXX=afl-clang-fast++ \
-CFLAGS="-g -fsanitize=address -fno-sanitize-recover=all" \
-CXXFLAGS="-g -fsanitize=address -fno-sanitize-recover=all" \
-LDFLAGS="-fsanitize=address -fno-sanitize-recover=all -lm" \
+CFLAGS="-Wno-error=declaration-after-statement -g -fsanitize=address,undefined -fno-sanitize-recover=all" \
+CXXFLAGS="-Wno-error=declaration-after-statement -g -fsanitize=address,undefined -fno-sanitize-recover=all" \
+LDFLAGS="-fsanitize=address,undefined -fno-sanitize-recover=all -lm" \
 ./configure --with-apr="$PREFIX/apr/" \
             --with-apr-util="$PREFIX/apr-util/" \
             --with-expat="$PREFIX/expat/" \
@@ -89,6 +99,7 @@ LDFLAGS="-fsanitize=address -fno-sanitize-recover=all -lm" \
             --enable-mods-static=reallyall \
             --enable-debugger-mode \
             --with-crypto --with-openssl \
+            --prefix=$PREFIX \
             --disable-shared
 
 # compile

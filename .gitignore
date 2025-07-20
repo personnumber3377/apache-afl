@@ -3,3 +3,6 @@ httpd-*/
 .DS_Store
 */**/.DS_Store
 httpd-*/
+install_dir*/
+install*/
+install_dir/*

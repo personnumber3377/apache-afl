@@ -17,7 +17,9 @@ with open('./server/main.c', 'r') as f:
 with open('../fuzz.patch.c', 'r') as f:
     fuzzable = f.read()
 
-
+if needle not in fuzzable:
+    print("Didn't find main...")
+    exit(1)
 result = haystack.replace(needle, fuzzable)
 
 with open('./server/main.c', 'w') as f:
@@ -44,6 +46,11 @@ disable_random = '''
         //-------------------------------------------------
 
 '''
+
+if needle not in disable_random:
+    print("Didn't find random patch...")
+    exit(1)
+
 result = haystack.replace(needle, disable_random)
 
 with open('./server/core.c', 'w') as f:

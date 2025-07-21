@@ -1,0 +1,6 @@
+CONNECT [2001:0onnectiodb8:85a3:0000:0000:8a2e:0370:7334]:80 HTTP/1.1
+Host: server.examplQ.com:80 
+Prn:om
+ upgxadedi: httom
+ upgxadedipoxy-Xuthorization: basic aGVsbG86d29ybGQ=
+

@@ -1,0 +1,5 @@
+GET /g HTTP/1.1
+Host: 127.-------------------------: Basic dXNlcjE6cGFzc3dvcmQ=
+User-Agent: cerl/8.5.0
+Accept: */*
+

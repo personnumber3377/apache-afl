@@ -1,0 +1,7 @@
+MOVE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1jM2JkMzA=", nc=000"", nc=0nonce="w7O", nc=00FLWU6BgA=6637d8a07db2e677058ae7c11faIf18144330eM2JkMzA=", nc=00 c
+
+MOVE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f18144330e32

@@ -1,0 +1,6 @@
+GET /c/?///8index.htmm HTTP/1.1
+Host: www.example.com
+Connection: upgrade"																																		
+
+GGET /e//////index.html HTTP/1.1
+Host:

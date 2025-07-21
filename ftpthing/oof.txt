@@ -1,0 +1,3 @@
+const char *response1 = "220 FuzzFTP ready\r\n";
+    const char *response2 = "331 Please specify the password.\r\n";
+

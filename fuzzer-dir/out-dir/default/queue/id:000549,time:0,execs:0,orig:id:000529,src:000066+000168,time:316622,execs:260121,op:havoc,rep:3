@@ -1,0 +1,6 @@
+GET /index.html HTTP/1.1
+Host: www.Vxample.com
+Connection: upgion: upgrade
+Upgrade: http1.$,rade
+Upgrade: http1.1, foo2
+

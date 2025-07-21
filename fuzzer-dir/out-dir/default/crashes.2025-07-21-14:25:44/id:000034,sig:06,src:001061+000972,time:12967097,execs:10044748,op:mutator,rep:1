@@ -1,0 +1,7 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGEHTMT /a HTTP/1.1
+Host: www.exampmeGET /e/////%00/index.html HTTP/1.1
+Host

@@ -1,0 +1,15 @@
+GET /e//////index.htxl HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-uiload", nonce="w7OF€WU6BgA=6637d8a07db2e677058ae7c1..............
+Connectio1fa8f181ction: upgrade"
+
+
+
+44330e33333333333333333333333332", uri="/ff/", cnonbe="NWE5NDUxYmMyNWUl HTTP/1.1
+HzZDFmN2ViNGNmMTU1MTZjM2JkMzA=", nc=00000001, qop=auth, rf

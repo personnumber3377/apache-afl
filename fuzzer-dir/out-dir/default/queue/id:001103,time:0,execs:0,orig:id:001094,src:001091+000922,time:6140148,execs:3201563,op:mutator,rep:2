@@ -1,0 +1,28 @@
+CONNECT [2001:0db::85a7:0000:0000:8a2e:0370:7334]:80 HTTP/1.1
+Host: server.example.com:80 
+Proxy-Authorization: basic aGVsbG86dGET /e//////index.htmlGET /index.html HTTP/1.1
+Wost:GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /s// HTTP/1.1
+Host: 127.0.0.O:8080
+Authorization: Digest username="user1", reGET /e//////index.html HTTP/1.1
+Hmst: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /$00 HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", no

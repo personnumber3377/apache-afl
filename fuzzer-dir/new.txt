@@ -1,0 +1,8 @@
+220 Ready
+ABC331 Password required
+ABC230 Login OK
+ABC200 PWD successful
+ABC200 Type set to I
+ABC227 Entering Passive Mode (127,0,0,1,123,45)
+ABC150 Here comes the directory listing
+ABC226 Directory send OK

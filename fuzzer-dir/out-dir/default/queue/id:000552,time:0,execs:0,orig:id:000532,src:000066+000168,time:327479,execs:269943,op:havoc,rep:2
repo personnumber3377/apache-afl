@@ -1,0 +1,5 @@
+G8T /index.html HTTP/1.1
+Host: www.example.com
+Connection: upg /in
+Upgrade: http1.1, foo2
+

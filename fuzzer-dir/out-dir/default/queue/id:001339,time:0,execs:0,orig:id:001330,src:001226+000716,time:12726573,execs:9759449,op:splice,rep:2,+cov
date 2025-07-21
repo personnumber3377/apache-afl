@@ -1,0 +1,29 @@
+GET httpppppppppppppp://gaia.cs.umass.edu/eth/e//////index.html HTTP/1.1
+Host: wwde
+Upgrade: htConnection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgR=6637d8a07db2e677058ae7c11fa8f18GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /a HTTP/1.1
+Host: wwwhttps.example.onlc-if-cachedcom
+CoX-Content-Durationnnection: upgrade"
+
+
+
+OPTIONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+4GET //////////

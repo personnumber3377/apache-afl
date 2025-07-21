@@ -1,0 +1,27 @@
+GET /c/?////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /c HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upNotde"
+
+
+
+OPT&ONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8lGET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgradeDNTmpatible; MSIE 6.0; Windows thereal-labs/lab3-1-reply.htm HTTP/1.1
+Accepo: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnp.ms-excel, application/vnd.ms-po5
+Accept-Encoding: gzip,deflatewerpoint, applicattion/x-sh

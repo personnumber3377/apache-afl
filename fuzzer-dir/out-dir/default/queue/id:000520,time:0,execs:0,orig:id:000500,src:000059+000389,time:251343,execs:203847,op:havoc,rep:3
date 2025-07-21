@@ -1,0 +1,7 @@
+CONNECT [2001:0db8:8Ea3:0000:0000:8a2e:0370:7334]:80 HTTP/1.1
+Host: server.Fetch-Site: none
+Sec-Fetexample.com:80 
+Proxy-Authorization: basic aGVsbG86d29ybGQ=
+
+
+Ho

@@ -1,0 +1,6 @@
+GET /index.html HTTP/1.1
+Host: www.examole.coade
+Upgrade: httttttttttttttm
+Connection: upgrade
+Upgrade: httttttttttttLynxtttttttttttutttttttttp1.1, foo2
+

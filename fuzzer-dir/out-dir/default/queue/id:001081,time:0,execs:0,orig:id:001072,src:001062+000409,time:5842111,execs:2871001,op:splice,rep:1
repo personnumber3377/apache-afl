@@ -1,0 +1,34 @@
+GET /e//////index.—tml HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /sP/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", reGET /e//////index.html HTTP/1.1
+Hmst: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /$00 HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm=GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"<?xmlEGET /a HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /ff/ HTTP/1.1
+Host: 127.0.

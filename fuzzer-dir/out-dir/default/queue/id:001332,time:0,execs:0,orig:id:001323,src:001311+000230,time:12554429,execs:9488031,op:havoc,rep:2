@@ -1,0 +1,7 @@
+GET /index.html HTTP/1.1
+Host: www.exade
+Upgrade: http1.1, tcom
+Connection: upgrade
+Upgrade: http1.1, imo-8859-pgrade
+Upgrade: http1.1, T /in;qfoo2
+

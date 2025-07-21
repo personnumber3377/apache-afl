@@ -1,0 +1,31 @@
+GET /e//////index.html HTTP/1.1
+Host: wwde
+Upgraden: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connectinn: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+HoUt: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgR=6637d8a07db2e677058ae7c11fa8f182ction: upgradempatible; MSIE 6.0
+Connectinn: eal-laounGET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+ç
+OPTIO

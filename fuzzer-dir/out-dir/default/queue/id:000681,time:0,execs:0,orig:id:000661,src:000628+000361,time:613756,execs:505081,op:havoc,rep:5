@@ -1,0 +1,6 @@
+MOVE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", noncccccccccccccccc6637d8a07db2e67 response nc=00000001, qop, uri="/ff/", cnonce="NWE5NDUxYmMyNWUzZDFmN2ViNGNlMTU1MTZjM2JkMzA=", nc=00300001, qop=auth, response nc=00000001823479, qop=auth,2f30a26dfba", algorithm=MD5
+User-Agent: curl/8.5.0
+Accept: */*
+

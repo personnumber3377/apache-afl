@@ -1,0 +1,31 @@
+GET /c/?////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /g HTTP/1.1
+Gost: www.GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Auihorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07onnectdb2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+4GET ///////////f HTTP/1.1
+Hosu: 127.0.PPPPPPPPPPPPPPPPtion:11fa8f181ction: upgrade"
+
+
+;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent

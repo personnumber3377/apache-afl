@@ -1,0 +1,28 @@
+GET /h/?////index.html HTTP/1.1
+Host: www.example.com
+Connebtion: upgrade"
+
+GEGET /x HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upNotde"
+
+
+
+OPT&ONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realr="DAV-uplMKCOL nonce="w7OFLWU6BgA=6637d8Access-Control-AllGET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+UNCHECKOUT /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+4GET ///////////f HTTP/1.1
+Host: 127.0.0.1:8080

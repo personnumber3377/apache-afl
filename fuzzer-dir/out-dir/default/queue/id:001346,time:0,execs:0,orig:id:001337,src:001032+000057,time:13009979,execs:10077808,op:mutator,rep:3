@@ -1,0 +1,36 @@
+GET /e/?////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgraom100101 Firefox/59.0
+Accept: teww.example.only-if-cachedcom
+Connection: upNotde"
+
+
+
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+H~st: 127.0GET /c/?////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /c HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: ugNotde"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+4

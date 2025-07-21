@@ -1,0 +1,9 @@
+MOVE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+                Authorizatc11faIf1ÿ44330eMame="user1jM2JkMzA=", oc=000"", nc=00000001, , realm="DAV-upload",bee47705e57bbaa nonce="w7O", ithm=MD5
+			JkMzA=", ndb2e677058ae7c11faIf1ÿ44330eM2JkMzA=", nm=MD5
+			JkMzWE5NDUxYmZyNWUzZD, algorithm=MD5
+			JkMzA=", nc;00000001, qop=auth, response="3bee47705e57bbaa9=", nc=00 cnonce="NWE5NDUxYm99dc2_30a26dfba", alg~rithm=M‡5
+User-Agent: curl/8.5.0
+Accept: */*
+

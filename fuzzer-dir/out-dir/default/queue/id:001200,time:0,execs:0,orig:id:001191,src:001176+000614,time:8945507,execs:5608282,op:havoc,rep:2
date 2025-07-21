@@ -1,0 +1,22 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-iH-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8Å07db2e677058ae7c11fa8f181ction: upgradempatible; MSIE 6.0; Windows thereal-laoundary=---------tm HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpegAccess-Control-Allow-OriginlYsh, application/vnp.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://gaia.cs.umass.edu/ethereal-labs/TCP-ethereal-file1.html
+Accept-Language: en-us
+Content-Type: multipart/form-data; bbs/lab3-1-reply.h------------"-----7d537442b03aa
+Accept-Encoding:Ñ/formContent-Rangeb3-1-re: Moz-data; B (co"
+
+
+
+4GET ////////POST /eNT 5.1; SV1; .NET CLR 1.1.43

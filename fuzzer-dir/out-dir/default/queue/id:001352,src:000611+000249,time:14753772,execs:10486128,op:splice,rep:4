@@ -1,0 +1,27 @@
+GET /g HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Basic gXNlcjE6cGFzc3dvcmQ=
+User-Agent: curl/8.5GET /e//////index.html HTTPET /e//////inde.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /g// HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+GET /w HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Not)A;Branon: Digest username="userd";v="8", filename="bar.png"
+Content-Lsec-ch-ua-mobile: ?0
+sec-mobile: ?0
+sec-#h-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: 0
+Authorization: Digest user______________________nMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,

@@ -1,0 +1,12 @@
+OPTIONS / HTTP/1.1
+Host: bar.example
+Accept: text/html,application/xhtml+xml,aexam67000
+
+onnection: xml;q=0.9,*/*;q=0.8
+Accept-Language:ßen-us,en;q=0.5
+Accept-Encoding: g
+Connection: keep-alive
+Origin: https://foo.example
+Access-Control-Request-Method: POST
+Access-Control-Request-HeadersD X-PINGOTHER, 7ontent-Type
+

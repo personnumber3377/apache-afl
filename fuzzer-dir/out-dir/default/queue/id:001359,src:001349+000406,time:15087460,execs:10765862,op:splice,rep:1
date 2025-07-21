@@ -1,0 +1,47 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /s// HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", reGET /e//////index.html HTTP/1.1
+Hmst: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /z// HTTP/1.1
+past: 127.0.0.1:8080
+Authorization: Digest username="user1", realGET /e//////index.html HTTP/1.1
+Host: wwde
+Upgrade: htConnection: vpgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-uplo

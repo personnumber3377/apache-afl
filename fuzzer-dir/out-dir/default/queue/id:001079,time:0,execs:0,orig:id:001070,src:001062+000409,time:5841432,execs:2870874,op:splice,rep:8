@@ -1,0 +1,35 @@
+GET /e//////index.—tml HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Conoection: upgrade"
+
+
+
+OPTIONS /sP/ HTTP/1.1
+Host: 127.5.0.1:8080
+Authorization: Digest username="user1", reGET /e//////index.html HTTP/1.1
+Hmst: www.example.com
+Connection: upgradeµ
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+ConneHtion: upgrade"
+
+
+
+OPTIONS /$00 HTTP/1.1
+-ost: 127.0.0.1:8080
+Authorization: Digest username="user1", plicatioK/xhtmHTTP2-Settingsrealm=GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Ction: upgrade"
+
+GEGET /a HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS MSIE 6.0; Windows NT 5.0) O

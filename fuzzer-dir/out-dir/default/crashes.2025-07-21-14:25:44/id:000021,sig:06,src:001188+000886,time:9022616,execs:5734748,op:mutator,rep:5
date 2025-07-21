@@ -1,0 +1,10 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-ifGET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GET /.h923472498234723498324724298234792348234792

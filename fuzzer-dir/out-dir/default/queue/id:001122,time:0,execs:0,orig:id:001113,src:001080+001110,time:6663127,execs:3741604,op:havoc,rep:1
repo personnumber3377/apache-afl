@@ -1,0 +1,5 @@
+GET /i?HiX-ATT-Device%2FId/1%2FId/1.1.1
+Ho.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade
+Up

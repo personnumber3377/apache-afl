@@ -1,0 +1,4 @@
+/home/oof/apache-afl/fuzzer-dir/../install_dir/bin/httpd
+-X
+-f
+/home/oof/apache-afl/fuzzer-dir/conf/default.conf

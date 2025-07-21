@@ -1,0 +1,1078 @@
+[+] Launched AFL loop
+[+] Continue with normal apache execution
+[+] FTP listener on 127.0.0.1:8081 started
+Registering hooks for core.c
+  Hooked generate_log_id
+  Hooked pre_config
+  Hooked expr_lookup
+  Hooked expr_lookup
+  Hooked post_config
+  Hooked create_connection
+  Hooked pre_connection
+  Hooked pre_config
+  Hooked post_config
+  Hooked check_config
+  Hooked test_config
+  Hooked translate_name
+  Hooked map_to_storage
+  Hooked map_to_storage
+  Hooked open_logs
+  Hooked child_init
+  Hooked child_init
+  Hooked handler
+  Hooked handler
+  Hooked type_checker
+  Hooked fixups
+  Hooked create_request
+  Hooked create_req
+  Hooked pre_mpm
+  Hooked child_status
+  Hooked insert_network_bucket
+  Hooked dirwalk_stat
+  Hooked open_htaccess
+  Hooked optional_fn_retrieve
+  Hooked get_pollfd_from_conn
+  Hooked insert_filter
+Registering hooks for mod_authn_file.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authn_dbm.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authn_anon.c
+Registering hooks for mod_authn_dbd.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authn_socache.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+Registering hooks for mod_authn_core.c
+  Hooked check_user_id
+Registering hooks for mod_authz_host.c
+  Hooked pre_config
+  Hooked post_config
+Registering hooks for mod_authz_groupfile.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authz_user.c
+Registering hooks for mod_authz_dbm.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authz_owner.c
+Registering hooks for mod_authz_dbd.c
+Registering hooks for mod_authz_core.c
+  Hooked pre_config
+  Hooked check_config
+  Hooked auth_checker
+  Hooked access_checker_ex
+Registering hooks for mod_access_compat.c
+  Hooked access_checker
+Registering hooks for mod_auth_basic.c
+  Hooked check_user_id
+  Hooked fixups
+  Hooked note_auth_failure
+Registering hooks for mod_auth_form.c
+  Hooked post_config
+  Hooked check_user_id
+  Hooked handler
+  Hooked handler
+  Hooked handler
+  Hooked note_auth_failure
+Registering hooks for mod_auth_digest.c
+  Hooked pre_config
+  Hooked post_config succ(http_core.c)
+  Hooked child_init
+  Hooked post_read_request pre(mod_proxy.c)
+  Hooked check_user_id
+  Hooked fixups
+  Hooked note_auth_failure
+Registering hooks for mod_allowmethods.c
+  Hooked access_checker
+Registering hooks for mod_file_cache.c
+  Hooked handler
+  Hooked post_config
+  Hooked translate_name
+Registering hooks for mod_cache.c
+  Hooked quick_handler
+  Hooked handler
+  Hooked cache_status
+  Hooked insert_error_filter
+  Hooked post_config
+Registering hooks for mod_cache_disk.c
+Registering hooks for mod_cache_socache.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+Registering hooks for mod_socache_shmcb.c
+Registering hooks for mod_socache_dbm.c
+Registering hooks for mod_socache_memcache.c
+Registering hooks for mod_socache_redis.c
+Registering hooks for mod_watchdog.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init pre(mpm_winnt.c)
+Registering hooks for mod_dbd.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+  Hooked post_connect
+Registering hooks for mod_dumpio.c
+  Hooked pre_connection
+Registering hooks for mod_buffer.c
+Registering hooks for mod_ratelimit.c
+Registering hooks for mod_reqtimeout.c
+  Hooked process_connection
+  Hooked pre_read_request
+  Hooked post_read_request
+Registering hooks for mod_ext_filter.c
+  Hooked post_config
+Registering hooks for mod_request.c
+  Hooked insert_filter
+Registering hooks for mod_include.c
+  Hooked post_config
+  Hooked fixups
+Registering hooks for mod_filter.c
+  Hooked insert_filter
+Registering hooks for mod_substitute.c
+Registering hooks for mod_sed.c
+Registering hooks for mod_deflate.c
+  Hooked post_config
+Registering hooks for mod_brotli.c
+Registering hooks for http_core.c
+  Hooked post_config
+  Hooked process_connection
+  Hooked map_to_storage
+  Hooked map_to_storage
+  Hooked http_scheme
+  Hooked default_port
+  Hooked create_request
+Registering hooks for mod_mime.c
+  Hooked post_config
+  Hooked type_checker
+Registering hooks for mod_log_config.c
+  Hooked pre_config
+  Hooked check_config
+  Hooked child_init
+  Hooked open_logs
+  Hooked log_transaction
+Registering hooks for mod_log_debug.c
+  Hooked log_transaction
+  Hooked quick_handler
+  Hooked handler
+  Hooked pre_translate_name
+  Hooked translate_name
+  Hooked map_to_storage
+  Hooked fixups
+  Hooked type_checker
+  Hooked access_checker
+  Hooked access_checker_ex
+  Hooked check_user_id
+  Hooked auth_checker
+  Hooked insert_filter
+Registering hooks for mod_logio.c
+  Hooked pre_connection
+  Hooked pre_config
+  Hooked log_transaction pre(mod_log_config.c)
+  Hooked insert_filter
+Registering hooks for mod_env.c
+  Hooked fixups
+Registering hooks for mod_expires.c
+  Hooked insert_error_filter
+  Hooked insert_filter
+Registering hooks for mod_headers.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked insert_filter
+  Hooked insert_error_filter
+  Hooked fixups
+  Hooked post_read_request
+Registering hooks for mod_unique_id.c
+  Hooked post_config
+  Hooked child_init
+  Hooked post_read_request
+  Hooked generate_log_id
+Registering hooks for mod_setenvif.c
+  Hooked header_parser
+  Hooked post_read_request
+Registering hooks for mod_remoteip.c
+  Hooked post_config
+  Hooked pre_connection
+  Hooked post_read_request
+Registering hooks for mod_proxy.c
+  Hooked handler
+  Hooked pre_translate_name
+  Hooked translate_name pre(mod_rewrite.c)
+  Hooked map_to_storage
+  Hooked fixups pre(mod_rewrite.c)
+  Hooked post_read_request
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init pre(mpm_winnt.c,mod_proxy_balancer.c,mod_proxy_hcheck.c)
+Registering hooks for mod_proxy_connect.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_ftp.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_http.c
+  Hooked post_config
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_fcgi.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_scgi.c
+  Hooked scheme_handler
+  Hooked canon_handler
+  Hooked request_status
+Registering hooks for mod_proxy_uwsgi.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_fdpass.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_wstunnel.c
+  Hooked post_config
+  Hooked scheme_handler succ(mod_proxy_http.c)
+  Hooked check_trans succ(mod_proxy_http.c)
+  Hooked canon_handler succ(mod_proxy_http.c)
+Registering hooks for mod_proxy_ajp.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_balancer.c
+  Hooked post_config pre(mod_proxy.c)
+  Hooked pre_config
+  Hooked handler
+  Hooked child_init pre(mpm_winnt.c,mod_slotmem_shm.c)
+  Hooked pre_request
+  Hooked post_request
+  Hooked canon_handler
+Registering hooks for mod_proxy_express.c
+  Hooked post_config
+  Hooked translate_name
+Registering hooks for mod_proxy_hcheck.c
+  Hooked pre_config
+  Hooked post_config pre(mod_proxy_balancer.c,mod_proxy.c) succ(mod_watchdog.c)
+  Hooked expr_lookup
+Registering hooks for mod_session.c
+  Hooked insert_filter
+  Hooked insert_error_filter
+  Hooked fixups
+  Hooked session_encode
+  Hooked session_decode
+Registering hooks for mod_session_cookie.c
+  Hooked session_load
+  Hooked session_save
+Registering hooks for mod_session_dbd.c
+  Hooked session_load
+  Hooked session_save
+  Hooked monitor
+Registering hooks for mod_slotmem_shm.c
+  Hooked post_config
+  Hooked pre_config
+Registering hooks for mod_ssl.c
+  Hooked pre_connection
+  Hooked process_connection
+  Hooked test_config
+  Hooked post_config succ(mod_proxy.c)
+  Hooked http_scheme
+  Hooked default_port
+  Hooked pre_config
+  Hooked child_init
+  Hooked check_user_id
+  Hooked fixups
+  Hooked access_checker
+  Hooked auth_checker
+  Hooked post_read_request pre(mod_setenvif.c)
+  Hooked section_post_config
+  Hooked ssl_conn_is_ssl
+  Hooked expr_lookup
+  Hooked ssl_bind_outgoing
+Registering hooks for mod_lbmethod_byrequests.c
+  Hooked post_config
+Registering hooks for mod_lbmethod_bytraffic.c
+  Hooked post_config
+Registering hooks for mod_lbmethod_bybusyness.c
+  Hooked post_config
+Registering hooks for mod_lbmethod_heartbeat.c
+  Hooked post_config pre(mod_heartmonitor.c)
+Registering hooks for prefork.c
+  Hooked open_logs succ(core.c)
+  Hooked pre_config
+  Hooked check_config
+  Hooked mpm
+  Hooked mpm_query
+  Hooked mpm_get_name
+Registering hooks for mod_unixd.c
+  Hooked pre_config
+  Hooked test_config
+  Hooked drop_privileges
+Registering hooks for mod_dav.c
+  Hooked handler
+  Hooked post_config
+  Hooked fixups
+  Hooked find_liveprop
+  Hooked insert_all_liveprops
+  Hooked deliver_report
+  Hooked gather_reports
+Registering hooks for mod_status.c
+  Hooked handler
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+Registering hooks for mod_autoindex.c
+  Hooked handler
+Registering hooks for mod_info.c
+  Hooked handler
+  Hooked check_config
+Registering hooks for mod_cgi.c
+  Hooked handler
+  Hooked post_config pre(mod_include.c)
+  Hooked optional_fn_retrieve
+Registering hooks for mod_dav_fs.c
+  Hooked gather_propsets
+  Hooked find_liveprop
+  Hooked insert_all_liveprops
+Registering hooks for mod_vhost_alias.c
+  Hooked translate_name pre(mod_alias.c,mod_userdir.c)
+Registering hooks for mod_negotiation.c
+  Hooked fixups
+  Hooked type_checker
+  Hooked handler
+Registering hooks for mod_dir.c
+  Hooked fixups
+Registering hooks for mod_actions.c
+  Hooked handler
+Registering hooks for mod_speling.c
+  Hooked fixups
+Registering hooks for mod_userdir.c
+  Hooked translate_name pre(mod_alias.c) succ(mod_vhost_alias.c)
+  Hooked get_suexec_identity
+Registering hooks for mod_alias.c
+  Hooked translate_name succ(mod_userdir.c,mod_vhost_alias.c)
+  Hooked fixups
+Registering hooks for mod_rewrite.c
+  Hooked handler
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+  Hooked translate_name succ(mod_proxy.c)
+  Hooked fixups succ(mod_proxy.c)
+  Hooked fixups
+Sorting generate_log_id: mod_unique_id.c core.c
+Sorting pre_config: core.c mod_log_config.c mod_logio.c prefork.c mod_watchdog.c mod_unixd.c mod_authn_socache.c mod_authz_host.c mod_authz_core.c mod_auth_digest.c mod_cache_socache.c mod_dbd.c mod_headers.c mod_proxy.c mod_proxy_balancer.c mod_proxy_hcheck.c mod_slotmem_shm.c mod_ssl.c mod_rewrite.c mod_status.c core.c
+Sorting expr_lookup: core.c mod_proxy_hcheck.c mod_ssl.c core.c
+Sorting post_config: core.c mod_cache.c mod_include.c mod_cgi.c core.c mod_authn_socache.c mod_authz_host.c mod_auth_form.c mod_auth_digest.c mod_file_cache.c mod_cache_socache.c mod_dbd.c mod_ext_filter.c mod_deflate.c http_core.c mod_mime.c mod_headers.c mod_unique_id.c mod_remoteip.c mod_ssl.c mod_proxy.c mod_proxy_http.c mod_proxy_wstunnel.c mod_proxy_balancer.c mod_lbmethod_byrequests.c mod_lbmethod_bytraffic.c mod_lbmethod_bybusyness.c mod_lbmethod_heartbeat.c mod_dav.c mod_status.c mod_rewrite.c mod_proxy_hcheck.c mod_watchdog.c mod_proxy_express.c mod_slotmem_shm.c
+Sorting create_connection: core.c
+Sorting pre_connection: mod_dumpio.c mod_logio.c mod_remoteip.c mod_ssl.c core.c
+Sorting check_config: core.c mod_info.c mod_authz_core.c mod_log_config.c prefork.c
+Sorting test_config: core.c mod_unixd.c mod_ssl.c
+Sorting translate_name: mod_log_debug.c mod_rewrite.c mod_proxy.c mod_proxy_express.c mod_file_cache.c mod_alias.c mod_userdir.c mod_vhost_alias.c core.c
+Sorting map_to_storage: core.c mod_log_debug.c mod_proxy.c http_core.c http_core.c core.c
+Sorting open_logs: prefork.c core.c mod_log_config.c
+Sorting child_init: core.c core.c mod_authn_socache.c mod_auth_digest.c mod_cache_socache.c mod_watchdog.c mod_dbd.c mod_log_config.c mod_unique_id.c mod_proxy_balancer.c mod_proxy.c mod_ssl.c mod_status.c mod_rewrite.c
+Sorting handler: core.c mod_cache.c mod_log_debug.c mod_proxy.c mod_proxy_balancer.c mod_auth_form.c mod_auth_form.c mod_auth_form.c mod_dav.c mod_status.c mod_autoindex.c mod_info.c mod_cgi.c mod_negotiation.c mod_rewrite.c mod_file_cache.c mod_actions.c core.c
+Sorting type_checker: mod_log_debug.c mod_negotiation.c mod_mime.c core.c
+Sorting fixups: core.c mod_log_debug.c mod_rewrite.c mod_proxy.c mod_auth_digest.c mod_env.c mod_session.c mod_ssl.c mod_dav.c mod_negotiation.c mod_alias.c mod_auth_basic.c mod_include.c mod_headers.c mod_dir.c mod_speling.c mod_rewrite.c
+Sorting create_request: core.c http_core.c
+Sorting create_req: core.c
+Sorting pre_mpm: core.c
+Sorting child_status: core.c
+Sorting insert_network_bucket: core.c
+Sorting dirwalk_stat: core.c
+Sorting open_htaccess: core.c
+Sorting optional_fn_retrieve: core.c mod_authn_file.c mod_authn_dbm.c mod_authn_dbd.c mod_authz_groupfile.c mod_authz_dbm.c mod_cgi.c
+Sorting get_pollfd_from_conn: core.c
+Sorting insert_filter: mod_log_debug.c core.c mod_filter.c mod_expires.c mod_session.c mod_request.c mod_logio.c mod_headers.c
+Sorting check_user_id: mod_log_debug.c mod_ssl.c mod_auth_basic.c mod_auth_form.c mod_auth_digest.c mod_authn_core.c
+Sorting auth_checker: mod_log_debug.c mod_ssl.c mod_authz_core.c
+Sorting access_checker_ex: mod_log_debug.c mod_authz_core.c
+Sorting access_checker: mod_allowmethods.c mod_log_debug.c mod_access_compat.c mod_ssl.c
+Sorting note_auth_failure: mod_auth_basic.c mod_auth_form.c mod_auth_digest.c
+Sorting post_read_request: mod_headers.c mod_remoteip.c mod_proxy.c mod_auth_digest.c mod_reqtimeout.c mod_unique_id.c mod_setenvif.c mod_ssl.c
+Sorting quick_handler: mod_cache.c mod_log_debug.c
+Sorting cache_status: mod_cache.c
+Sorting insert_error_filter: mod_cache.c mod_expires.c mod_session.c mod_headers.c
+Sorting post_connect: mod_dbd.c
+Sorting process_connection: mod_reqtimeout.c mod_ssl.c http_core.c
+Sorting pre_read_request: mod_reqtimeout.c
+Sorting http_scheme: mod_ssl.c http_core.c
+Sorting default_port: mod_ssl.c http_core.c
+Sorting log_transaction: mod_log_debug.c mod_log_config.c mod_logio.c
+Sorting pre_translate_name: mod_log_debug.c mod_proxy.c
+Sorting header_parser: mod_setenvif.c
+Sorting scheme_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting canon_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_balancer.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting request_status: mod_proxy_scgi.c
+Sorting check_trans: mod_proxy_wstunnel.c
+Sorting pre_request: mod_proxy_balancer.c
+Sorting post_request: mod_proxy_balancer.c
+Sorting session_encode: mod_session.c
+Sorting session_decode: mod_session.c
+Sorting session_load: mod_session_cookie.c mod_session_dbd.c
+Sorting session_save: mod_session_cookie.c mod_session_dbd.c
+Sorting monitor: mod_session_dbd.c
+Sorting section_post_config: mod_ssl.c
+Sorting ssl_conn_is_ssl: mod_ssl.c
+Sorting ssl_bind_outgoing: mod_ssl.c
+Sorting mpm: prefork.c
+Sorting mpm_query: prefork.c
+Sorting mpm_get_name: prefork.c
+Sorting drop_privileges: mod_unixd.c
+Sorting find_liveprop: mod_dav_fs.c mod_dav.c
+Sorting insert_all_liveprops: mod_dav.c mod_dav_fs.c
+Sorting deliver_report: mod_dav.c
+Sorting gather_reports: mod_dav.c
+Sorting gather_propsets: mod_dav_fs.c
+Sorting get_suexec_identity: mod_userdir.c
+  Hooked check_config
+[+] Looping
+Sorting generate_log_id: mod_unique_id.c core.c
+Sorting pre_config: core.c mod_log_config.c mod_logio.c prefork.c mod_watchdog.c mod_unixd.c mod_authn_socache.c mod_authz_host.c mod_authz_core.c mod_auth_digest.c mod_cache_socache.c mod_dbd.c mod_headers.c mod_proxy.c mod_proxy_balancer.c mod_proxy_hcheck.c mod_slotmem_shm.c mod_ssl.c mod_rewrite.c mod_status.c core.c
+Sorting expr_lookup: core.c mod_proxy_hcheck.c mod_ssl.c core.c
+Sorting post_config: core.c mod_cache.c mod_include.c mod_cgi.c core.c mod_authn_socache.c mod_authz_host.c mod_auth_form.c mod_auth_digest.c mod_file_cache.c mod_cache_socache.c mod_dbd.c mod_ext_filter.c mod_deflate.c http_core.c mod_mime.c mod_headers.c mod_unique_id.c mod_remoteip.c mod_ssl.c mod_proxy.c mod_proxy_http.c mod_proxy_wstunnel.c mod_proxy_balancer.c mod_lbmethod_byrequests.c mod_lbmethod_bytraffic.c mod_lbmethod_bybusyness.c mod_lbmethod_heartbeat.c mod_dav.c mod_status.c mod_rewrite.c mod_proxy_hcheck.c mod_watchdog.c mod_proxy_express.c mod_slotmem_shm.c
+Sorting create_connection: core.c
+Sorting pre_connection: mod_dumpio.c mod_logio.c mod_remoteip.c mod_ssl.c core.c
+Sorting check_config: core.c mod_info.c mod_authz_core.c mod_log_config.c prefork.c mod_rewrite.c
+Sorting test_config: core.c mod_unixd.c mod_ssl.c
+Sorting translate_name: mod_log_debug.c mod_rewrite.c mod_proxy.c mod_proxy_express.c mod_file_cache.c mod_alias.c mod_userdir.c mod_vhost_alias.c core.c
+Sorting map_to_storage: core.c mod_log_debug.c mod_proxy.c http_core.c http_core.c core.c
+Sorting open_logs: prefork.c core.c mod_log_config.c
+Sorting child_init: core.c core.c mod_authn_socache.c mod_auth_digest.c mod_cache_socache.c mod_watchdog.c mod_dbd.c mod_log_config.c mod_unique_id.c mod_proxy_balancer.c mod_proxy.c mod_ssl.c mod_status.c mod_rewrite.c
+Sorting handler: core.c mod_cache.c mod_log_debug.c mod_proxy.c mod_proxy_balancer.c mod_auth_form.c mod_auth_form.c mod_auth_form.c mod_dav.c mod_status.c mod_autoindex.c mod_info.c mod_cgi.c mod_negotiation.c mod_rewrite.c mod_file_cache.c mod_actions.c core.c
+Sorting type_checker: mod_log_debug.c mod_negotiation.c mod_mime.c core.c
+Sorting fixups: core.c mod_log_debug.c mod_rewrite.c mod_proxy.c mod_auth_digest.c mod_env.c mod_session.c mod_ssl.c mod_dav.c mod_negotiation.c mod_alias.c mod_auth_basic.c mod_include.c mod_headers.c mod_dir.c mod_speling.c mod_rewrite.c
+Sorting create_request: core.c http_core.c
+Sorting create_req: core.c
+Sorting pre_mpm: core.c
+Sorting child_status: core.c
+Sorting insert_network_bucket: core.c
+Sorting dirwalk_stat: core.c
+Sorting open_htaccess: core.c
+Sorting optional_fn_retrieve: core.c mod_authn_file.c mod_authn_dbm.c mod_authn_dbd.c mod_authz_groupfile.c mod_authz_dbm.c mod_cgi.c
+Sorting get_pollfd_from_conn: core.c
+Sorting insert_filter: mod_log_debug.c core.c mod_filter.c mod_expires.c mod_session.c mod_request.c mod_logio.c mod_headers.c
+Sorting check_user_id: mod_log_debug.c mod_ssl.c mod_auth_basic.c mod_auth_form.c mod_auth_digest.c mod_authn_core.c
+Sorting auth_checker: mod_log_debug.c mod_ssl.c mod_authz_core.c
+Sorting access_checker_ex: mod_log_debug.c mod_authz_core.c
+Sorting access_checker: mod_allowmethods.c mod_log_debug.c mod_access_compat.c mod_ssl.c
+Sorting note_auth_failure: mod_auth_basic.c mod_auth_form.c mod_auth_digest.c
+Sorting post_read_request: mod_headers.c mod_remoteip.c mod_proxy.c mod_auth_digest.c mod_reqtimeout.c mod_unique_id.c mod_setenvif.c mod_ssl.c
+Sorting quick_handler: mod_cache.c mod_log_debug.c
+Sorting cache_status: mod_cache.c
+Sorting insert_error_filter: mod_cache.c mod_expires.c mod_session.c mod_headers.c
+Sorting post_connect: mod_dbd.c
+Sorting process_connection: mod_reqtimeout.c mod_ssl.c http_core.c
+Sorting pre_read_request: mod_reqtimeout.c
+Sorting http_scheme: mod_ssl.c http_core.c
+Sorting default_port: mod_ssl.c http_core.c
+Sorting log_transaction: mod_log_debug.c mod_log_config.c mod_logio.c
+Sorting pre_translate_name: mod_log_debug.c mod_proxy.c
+Sorting header_parser: mod_setenvif.c
+Sorting scheme_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting canon_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_balancer.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting request_status: mod_proxy_scgi.c
+Sorting check_trans: mod_proxy_wstunnel.c
+Sorting pre_request: mod_proxy_balancer.c
+Sorting post_request: mod_proxy_balancer.c
+Sorting session_encode: mod_session.c
+Sorting session_decode: mod_session.c
+Sorting session_load: mod_session_cookie.c mod_session_dbd.c
+Sorting session_save: mod_session_cookie.c mod_session_dbd.c
+Sorting monitor: mod_session_dbd.c
+Sorting section_post_config: mod_ssl.c
+Sorting ssl_conn_is_ssl: mod_ssl.c
+Sorting ssl_bind_outgoing: mod_ssl.c
+Sorting mpm: prefork.c
+Sorting mpm_query: prefork.c
+Sorting mpm_get_name: prefork.c
+Sorting drop_privileges: mod_unixd.c
+Sorting find_liveprop: mod_dav_fs.c mod_dav.c
+Sorting insert_all_liveprops: mod_dav.c mod_dav_fs.c
+Sorting deliver_report: mod_dav.c
+Sorting gather_reports: mod_dav.c
+Sorting gather_propsets: mod_dav_fs.c
+Sorting get_suexec_identity: mod_userdir.c
+  Hooked status_hook
+  Hooked status_hook
+  Hooked status_hook
+Sorting generate_log_id: mod_unique_id.c core.c
+Sorting pre_config: core.c mod_log_config.c mod_logio.c prefork.c mod_watchdog.c mod_unixd.c mod_authn_socache.c mod_authz_host.c mod_authz_core.c mod_auth_digest.c mod_cache_socache.c mod_dbd.c mod_headers.c mod_proxy.c mod_proxy_balancer.c mod_proxy_hcheck.c mod_slotmem_shm.c mod_ssl.c mod_rewrite.c mod_status.c core.c
+Sorting expr_lookup: core.c mod_proxy_hcheck.c mod_ssl.c core.c
+Sorting post_config: core.c mod_cache.c mod_include.c mod_cgi.c core.c mod_authn_socache.c mod_authz_host.c mod_auth_form.c mod_auth_digest.c mod_file_cache.c mod_cache_socache.c mod_dbd.c mod_ext_filter.c mod_deflate.c http_core.c mod_mime.c mod_headers.c mod_unique_id.c mod_remoteip.c mod_ssl.c mod_proxy.c mod_proxy_http.c mod_proxy_wstunnel.c mod_proxy_balancer.c mod_lbmethod_byrequests.c mod_lbmethod_bytraffic.c mod_lbmethod_bybusyness.c mod_lbmethod_heartbeat.c mod_dav.c mod_status.c mod_rewrite.c mod_proxy_hcheck.c mod_watchdog.c mod_proxy_express.c mod_slotmem_shm.c
+Sorting create_connection: core.c
+Sorting pre_connection: mod_dumpio.c mod_logio.c mod_remoteip.c mod_ssl.c core.c
+Sorting check_config: core.c mod_info.c mod_authz_core.c mod_log_config.c prefork.c mod_rewrite.c
+Sorting test_config: core.c mod_unixd.c mod_ssl.c
+Sorting translate_name: mod_log_debug.c mod_rewrite.c mod_proxy.c mod_proxy_express.c mod_file_cache.c mod_alias.c mod_userdir.c mod_vhost_alias.c core.c
+Sorting map_to_storage: core.c mod_log_debug.c mod_proxy.c http_core.c http_core.c core.c
+Sorting open_logs: prefork.c core.c mod_log_config.c
+Sorting child_init: core.c core.c mod_authn_socache.c mod_auth_digest.c mod_cache_socache.c mod_watchdog.c mod_dbd.c mod_log_config.c mod_unique_id.c mod_proxy_balancer.c mod_proxy.c mod_ssl.c mod_status.c mod_rewrite.c
+Sorting handler: core.c mod_cache.c mod_log_debug.c mod_proxy.c mod_proxy_balancer.c mod_auth_form.c mod_auth_form.c mod_auth_form.c mod_dav.c mod_status.c mod_autoindex.c mod_info.c mod_cgi.c mod_negotiation.c mod_rewrite.c mod_file_cache.c mod_actions.c core.c
+Sorting type_checker: mod_log_debug.c mod_negotiation.c mod_mime.c core.c
+Sorting fixups: core.c mod_log_debug.c mod_rewrite.c mod_proxy.c mod_auth_digest.c mod_env.c mod_session.c mod_ssl.c mod_dav.c mod_negotiation.c mod_alias.c mod_auth_basic.c mod_include.c mod_headers.c mod_dir.c mod_speling.c mod_rewrite.c
+Sorting create_request: core.c http_core.c
+Sorting create_req: core.c
+Sorting pre_mpm: core.c
+Sorting child_status: core.c
+Sorting insert_network_bucket: core.c
+Sorting dirwalk_stat: core.c
+Sorting open_htaccess: core.c
+Sorting optional_fn_retrieve: core.c mod_authn_file.c mod_authn_dbm.c mod_authn_dbd.c mod_authz_groupfile.c mod_authz_dbm.c mod_cgi.c
+Sorting get_pollfd_from_conn: core.c
+Sorting insert_filter: mod_log_debug.c core.c mod_filter.c mod_expires.c mod_session.c mod_request.c mod_logio.c mod_headers.c
+Sorting check_user_id: mod_log_debug.c mod_ssl.c mod_auth_basic.c mod_auth_form.c mod_auth_digest.c mod_authn_core.c
+Sorting auth_checker: mod_log_debug.c mod_ssl.c mod_authz_core.c
+Sorting access_checker_ex: mod_log_debug.c mod_authz_core.c
+Sorting access_checker: mod_allowmethods.c mod_log_debug.c mod_access_compat.c mod_ssl.c
+Sorting note_auth_failure: mod_auth_basic.c mod_auth_form.c mod_auth_digest.c
+Sorting post_read_request: mod_headers.c mod_remoteip.c mod_proxy.c mod_auth_digest.c mod_reqtimeout.c mod_unique_id.c mod_setenvif.c mod_ssl.c
+Sorting quick_handler: mod_cache.c mod_log_debug.c
+Sorting cache_status: mod_cache.c
+Sorting insert_error_filter: mod_cache.c mod_expires.c mod_session.c mod_headers.c
+Sorting post_connect: mod_dbd.c
+Sorting process_connection: mod_reqtimeout.c mod_ssl.c http_core.c
+Sorting pre_read_request: mod_reqtimeout.c
+Sorting http_scheme: mod_ssl.c http_core.c
+Sorting default_port: mod_ssl.c http_core.c
+Sorting log_transaction: mod_log_debug.c mod_log_config.c mod_logio.c
+Sorting pre_translate_name: mod_log_debug.c mod_proxy.c
+Sorting header_parser: mod_setenvif.c
+Sorting scheme_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting canon_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_balancer.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting request_status: mod_proxy_scgi.c
+Sorting check_trans: mod_proxy_wstunnel.c
+Sorting pre_request: mod_proxy_balancer.c
+Sorting post_request: mod_proxy_balancer.c
+Sorting session_encode: mod_session.c
+Sorting session_decode: mod_session.c
+Sorting session_load: mod_session_cookie.c mod_session_dbd.c
+Sorting session_save: mod_session_cookie.c mod_session_dbd.c
+Sorting monitor: mod_session_dbd.c
+Sorting section_post_config: mod_ssl.c
+Sorting ssl_conn_is_ssl: mod_ssl.c
+Sorting ssl_bind_outgoing: mod_ssl.c
+Sorting mpm: prefork.c
+Sorting mpm_query: prefork.c
+Sorting mpm_get_name: prefork.c
+Sorting drop_privileges: mod_unixd.c
+Sorting find_liveprop: mod_dav_fs.c mod_dav.c
+Sorting insert_all_liveprops: mod_dav.c mod_dav_fs.c
+Sorting deliver_report: mod_dav.c
+Sorting gather_reports: mod_dav.c
+Sorting gather_propsets: mod_dav_fs.c
+Sorting get_suexec_identity: mod_userdir.c
+Sorting status_hook: mod_rewrite.c mod_rewrite.c mod_rewrite.c
+Registering hooks for core.c
+  Hooked generate_log_id
+  Hooked pre_config
+  Hooked expr_lookup
+  Hooked expr_lookup
+  Hooked post_config
+  Hooked create_connection
+  Hooked pre_connection
+  Hooked pre_config
+  Hooked post_config
+  Hooked check_config
+  Hooked test_config
+  Hooked translate_name
+  Hooked map_to_storage
+  Hooked map_to_storage
+  Hooked open_logs
+  Hooked child_init
+  Hooked child_init
+  Hooked handler
+  Hooked handler
+  Hooked type_checker
+  Hooked fixups
+  Hooked create_request
+  Hooked create_req
+  Hooked pre_mpm
+  Hooked child_status
+  Hooked insert_network_bucket
+  Hooked dirwalk_stat
+  Hooked open_htaccess
+  Hooked optional_fn_retrieve
+  Hooked get_pollfd_from_conn
+  Hooked insert_filter
+Registering hooks for mod_authn_file.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authn_dbm.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authn_anon.c
+Registering hooks for mod_authn_dbd.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authn_socache.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+Registering hooks for mod_authn_core.c
+  Hooked check_user_id
+Registering hooks for mod_authz_host.c
+  Hooked pre_config
+  Hooked post_config
+Registering hooks for mod_authz_groupfile.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authz_user.c
+Registering hooks for mod_authz_dbm.c
+  Hooked optional_fn_retrieve
+Registering hooks for mod_authz_owner.c
+Registering hooks for mod_authz_dbd.c
+Registering hooks for mod_authz_core.c
+  Hooked pre_config
+  Hooked check_config
+  Hooked auth_checker
+  Hooked access_checker_ex
+Registering hooks for mod_access_compat.c
+  Hooked access_checker
+Registering hooks for mod_auth_basic.c
+  Hooked check_user_id
+  Hooked fixups
+  Hooked note_auth_failure
+Registering hooks for mod_auth_form.c
+  Hooked post_config
+  Hooked check_user_id
+  Hooked handler
+  Hooked handler
+  Hooked handler
+  Hooked note_auth_failure
+Registering hooks for mod_auth_digest.c
+  Hooked pre_config
+  Hooked post_config succ(http_core.c)
+  Hooked child_init
+  Hooked post_read_request pre(mod_proxy.c)
+  Hooked check_user_id
+  Hooked fixups
+  Hooked note_auth_failure
+Registering hooks for mod_allowmethods.c
+  Hooked access_checker
+Registering hooks for mod_file_cache.c
+  Hooked handler
+  Hooked post_config
+  Hooked translate_name
+Registering hooks for mod_cache.c
+  Hooked quick_handler
+  Hooked handler
+  Hooked cache_status
+  Hooked insert_error_filter
+  Hooked post_config
+Registering hooks for mod_cache_disk.c
+Registering hooks for mod_cache_socache.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+Registering hooks for mod_socache_shmcb.c
+Registering hooks for mod_socache_dbm.c
+Registering hooks for mod_socache_memcache.c
+Registering hooks for mod_socache_redis.c
+Registering hooks for mod_watchdog.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init pre(mpm_winnt.c)
+Registering hooks for mod_dbd.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+  Hooked post_connect
+Registering hooks for mod_dumpio.c
+  Hooked pre_connection
+Registering hooks for mod_buffer.c
+Registering hooks for mod_ratelimit.c
+Registering hooks for mod_reqtimeout.c
+  Hooked process_connection
+  Hooked pre_read_request
+  Hooked post_read_request
+Registering hooks for mod_ext_filter.c
+  Hooked post_config
+Registering hooks for mod_request.c
+  Hooked insert_filter
+Registering hooks for mod_include.c
+  Hooked post_config
+  Hooked fixups
+Registering hooks for mod_filter.c
+  Hooked insert_filter
+Registering hooks for mod_substitute.c
+Registering hooks for mod_sed.c
+Registering hooks for mod_deflate.c
+  Hooked post_config
+Registering hooks for mod_brotli.c
+Registering hooks for http_core.c
+  Hooked post_config
+  Hooked process_connection
+  Hooked map_to_storage
+  Hooked map_to_storage
+  Hooked http_scheme
+  Hooked default_port
+  Hooked create_request
+Registering hooks for mod_mime.c
+  Hooked post_config
+  Hooked type_checker
+Registering hooks for mod_log_config.c
+  Hooked pre_config
+  Hooked check_config
+  Hooked child_init
+  Hooked open_logs
+  Hooked log_transaction
+Registering hooks for mod_log_debug.c
+  Hooked log_transaction
+  Hooked quick_handler
+  Hooked handler
+  Hooked pre_translate_name
+  Hooked translate_name
+  Hooked map_to_storage
+  Hooked fixups
+  Hooked type_checker
+  Hooked access_checker
+  Hooked access_checker_ex
+  Hooked check_user_id
+  Hooked auth_checker
+  Hooked insert_filter
+Registering hooks for mod_logio.c
+  Hooked pre_connection
+  Hooked pre_config
+  Hooked log_transaction pre(mod_log_config.c)
+  Hooked insert_filter
+Registering hooks for mod_env.c
+  Hooked fixups
+Registering hooks for mod_expires.c
+  Hooked insert_error_filter
+  Hooked insert_filter
+Registering hooks for mod_headers.c
+  Hooked pre_config
+  Hooked post_config
+  Hooked insert_filter
+  Hooked insert_error_filter
+  Hooked fixups
+  Hooked post_read_request
+Registering hooks for mod_unique_id.c
+  Hooked post_config
+  Hooked child_init
+  Hooked post_read_request
+  Hooked generate_log_id
+Registering hooks for mod_setenvif.c
+  Hooked header_parser
+  Hooked post_read_request
+Registering hooks for mod_remoteip.c
+  Hooked post_config
+  Hooked pre_connection
+  Hooked post_read_request
+Registering hooks for mod_proxy.c
+  Hooked handler
+  Hooked pre_translate_name
+  Hooked translate_name pre(mod_rewrite.c)
+  Hooked map_to_storage
+  Hooked fixups pre(mod_rewrite.c)
+  Hooked post_read_request
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init pre(mpm_winnt.c,mod_proxy_balancer.c,mod_proxy_hcheck.c)
+Registering hooks for mod_proxy_connect.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_ftp.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_http.c
+  Hooked post_config
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_fcgi.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_scgi.c
+  Hooked scheme_handler
+  Hooked canon_handler
+  Hooked request_status
+Registering hooks for mod_proxy_uwsgi.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_fdpass.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_wstunnel.c
+  Hooked post_config
+  Hooked scheme_handler succ(mod_proxy_http.c)
+  Hooked check_trans succ(mod_proxy_http.c)
+  Hooked canon_handler succ(mod_proxy_http.c)
+Registering hooks for mod_proxy_ajp.c
+  Hooked scheme_handler
+  Hooked canon_handler
+Registering hooks for mod_proxy_balancer.c
+  Hooked post_config pre(mod_proxy.c)
+  Hooked pre_config
+  Hooked handler
+  Hooked child_init pre(mpm_winnt.c,mod_slotmem_shm.c)
+  Hooked pre_request
+  Hooked post_request
+  Hooked canon_handler
+Registering hooks for mod_proxy_express.c
+  Hooked post_config
+  Hooked translate_name
+Registering hooks for mod_proxy_hcheck.c
+  Hooked pre_config
+  Hooked post_config pre(mod_proxy_balancer.c,mod_proxy.c) succ(mod_watchdog.c)
+  Hooked expr_lookup
+Registering hooks for mod_session.c
+  Hooked insert_filter
+  Hooked insert_error_filter
+  Hooked fixups
+  Hooked session_encode
+  Hooked session_decode
+Registering hooks for mod_session_cookie.c
+  Hooked session_load
+  Hooked session_save
+Registering hooks for mod_session_dbd.c
+  Hooked session_load
+  Hooked session_save
+  Hooked monitor
+Registering hooks for mod_slotmem_shm.c
+  Hooked post_config
+  Hooked pre_config
+Registering hooks for mod_ssl.c
+  Hooked pre_connection
+  Hooked process_connection
+  Hooked test_config
+  Hooked post_config succ(mod_proxy.c)
+  Hooked http_scheme
+  Hooked default_port
+  Hooked pre_config
+  Hooked child_init
+  Hooked check_user_id
+  Hooked fixups
+  Hooked access_checker
+  Hooked auth_checker
+  Hooked post_read_request pre(mod_setenvif.c)
+  Hooked section_post_config
+  Hooked ssl_conn_is_ssl
+  Hooked expr_lookup
+  Hooked ssl_bind_outgoing
+Registering hooks for mod_lbmethod_byrequests.c
+  Hooked post_config
+Registering hooks for mod_lbmethod_bytraffic.c
+  Hooked post_config
+Registering hooks for mod_lbmethod_bybusyness.c
+  Hooked post_config
+Registering hooks for mod_lbmethod_heartbeat.c
+  Hooked post_config pre(mod_heartmonitor.c)
+Registering hooks for prefork.c
+  Hooked open_logs succ(core.c)
+  Hooked pre_config
+  Hooked check_config
+  Hooked mpm
+  Hooked mpm_query
+  Hooked mpm_get_name
+Registering hooks for mod_unixd.c
+  Hooked pre_config
+  Hooked test_config
+  Hooked drop_privileges
+Registering hooks for mod_dav.c
+  Hooked handler
+  Hooked post_config
+  Hooked fixups
+  Hooked find_liveprop
+  Hooked insert_all_liveprops
+  Hooked deliver_report
+  Hooked gather_reports
+Registering hooks for mod_status.c
+  Hooked handler
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+Registering hooks for mod_autoindex.c
+  Hooked handler
+Registering hooks for mod_info.c
+  Hooked handler
+  Hooked check_config
+Registering hooks for mod_cgi.c
+  Hooked handler
+  Hooked post_config pre(mod_include.c)
+  Hooked optional_fn_retrieve
+Registering hooks for mod_dav_fs.c
+  Hooked gather_propsets
+  Hooked find_liveprop
+  Hooked insert_all_liveprops
+Registering hooks for mod_vhost_alias.c
+  Hooked translate_name pre(mod_alias.c,mod_userdir.c)
+Registering hooks for mod_negotiation.c
+  Hooked fixups
+  Hooked type_checker
+  Hooked handler
+Registering hooks for mod_dir.c
+  Hooked fixups
+Registering hooks for mod_actions.c
+  Hooked handler
+Registering hooks for mod_speling.c
+  Hooked fixups
+Registering hooks for mod_userdir.c
+  Hooked translate_name pre(mod_alias.c) succ(mod_vhost_alias.c)
+  Hooked get_suexec_identity
+Registering hooks for mod_alias.c
+  Hooked translate_name succ(mod_userdir.c,mod_vhost_alias.c)
+  Hooked fixups
+Registering hooks for mod_rewrite.c
+  Hooked handler
+  Hooked pre_config
+  Hooked post_config
+  Hooked child_init
+  Hooked translate_name succ(mod_proxy.c)
+  Hooked fixups succ(mod_proxy.c)
+  Hooked fixups
+  Hooked check_config
+Sorting generate_log_id: mod_unique_id.c core.c
+Sorting pre_config: core.c mod_log_config.c mod_logio.c prefork.c mod_watchdog.c mod_unixd.c mod_authn_socache.c mod_authz_host.c mod_authz_core.c mod_auth_digest.c mod_cache_socache.c mod_dbd.c mod_headers.c mod_proxy.c mod_proxy_balancer.c mod_proxy_hcheck.c mod_slotmem_shm.c mod_ssl.c mod_rewrite.c mod_status.c core.c
+Sorting expr_lookup: core.c mod_proxy_hcheck.c mod_ssl.c core.c
+Sorting post_config: core.c mod_cache.c mod_include.c mod_cgi.c core.c mod_authn_socache.c mod_authz_host.c mod_auth_form.c mod_auth_digest.c mod_file_cache.c mod_cache_socache.c mod_dbd.c mod_ext_filter.c mod_deflate.c http_core.c mod_mime.c mod_headers.c mod_unique_id.c mod_remoteip.c mod_ssl.c mod_proxy.c mod_proxy_http.c mod_proxy_wstunnel.c mod_proxy_balancer.c mod_lbmethod_byrequests.c mod_lbmethod_bytraffic.c mod_lbmethod_bybusyness.c mod_lbmethod_heartbeat.c mod_dav.c mod_status.c mod_rewrite.c mod_proxy_hcheck.c mod_watchdog.c mod_proxy_express.c mod_slotmem_shm.c
+Sorting create_connection: core.c
+Sorting pre_connection: mod_dumpio.c mod_logio.c mod_remoteip.c mod_ssl.c core.c
+Sorting check_config: core.c mod_info.c mod_authz_core.c mod_log_config.c prefork.c mod_rewrite.c
+Sorting test_config: core.c mod_unixd.c mod_ssl.c
+Sorting translate_name: mod_log_debug.c mod_rewrite.c mod_proxy.c mod_proxy_express.c mod_file_cache.c mod_alias.c mod_userdir.c mod_vhost_alias.c core.c
+Sorting map_to_storage: core.c mod_log_debug.c mod_proxy.c http_core.c http_core.c core.c
+Sorting open_logs: prefork.c core.c mod_log_config.c
+Sorting child_init: core.c core.c mod_authn_socache.c mod_auth_digest.c mod_cache_socache.c mod_watchdog.c mod_dbd.c mod_log_config.c mod_unique_id.c mod_proxy_balancer.c mod_proxy.c mod_ssl.c mod_status.c mod_rewrite.c
+Sorting handler: core.c mod_cache.c mod_log_debug.c mod_proxy.c mod_proxy_balancer.c mod_auth_form.c mod_auth_form.c mod_auth_form.c mod_dav.c mod_status.c mod_autoindex.c mod_info.c mod_cgi.c mod_negotiation.c mod_rewrite.c mod_file_cache.c mod_actions.c core.c
+Sorting type_checker: mod_log_debug.c mod_negotiation.c mod_mime.c core.c
+Sorting fixups: core.c mod_log_debug.c mod_rewrite.c mod_proxy.c mod_auth_digest.c mod_env.c mod_session.c mod_ssl.c mod_dav.c mod_negotiation.c mod_alias.c mod_auth_basic.c mod_include.c mod_headers.c mod_dir.c mod_speling.c mod_rewrite.c
+Sorting create_request: core.c http_core.c
+Sorting create_req: core.c
+Sorting pre_mpm: core.c
+Sorting child_status: core.c
+Sorting insert_network_bucket: core.c
+Sorting dirwalk_stat: core.c
+Sorting open_htaccess: core.c
+Sorting optional_fn_retrieve: core.c mod_authn_file.c mod_authn_dbm.c mod_authn_dbd.c mod_authz_groupfile.c mod_authz_dbm.c mod_cgi.c
+Sorting get_pollfd_from_conn: core.c
+Sorting insert_filter: mod_log_debug.c core.c mod_filter.c mod_expires.c mod_session.c mod_request.c mod_logio.c mod_headers.c
+Sorting check_user_id: mod_log_debug.c mod_ssl.c mod_auth_basic.c mod_auth_form.c mod_auth_digest.c mod_authn_core.c
+Sorting auth_checker: mod_log_debug.c mod_ssl.c mod_authz_core.c
+Sorting access_checker_ex: mod_log_debug.c mod_authz_core.c
+Sorting access_checker: mod_allowmethods.c mod_log_debug.c mod_access_compat.c mod_ssl.c
+Sorting note_auth_failure: mod_auth_basic.c mod_auth_form.c mod_auth_digest.c
+Sorting post_read_request: mod_headers.c mod_remoteip.c mod_proxy.c mod_auth_digest.c mod_reqtimeout.c mod_unique_id.c mod_setenvif.c mod_ssl.c
+Sorting quick_handler: mod_cache.c mod_log_debug.c
+Sorting cache_status: mod_cache.c
+Sorting insert_error_filter: mod_cache.c mod_expires.c mod_session.c mod_headers.c
+Sorting post_connect: mod_dbd.c
+Sorting process_connection: mod_reqtimeout.c mod_ssl.c http_core.c
+Sorting pre_read_request: mod_reqtimeout.c
+Sorting http_scheme: mod_ssl.c http_core.c
+Sorting default_port: mod_ssl.c http_core.c
+Sorting log_transaction: mod_log_debug.c mod_log_config.c mod_logio.c
+Sorting pre_translate_name: mod_log_debug.c mod_proxy.c
+Sorting header_parser: mod_setenvif.c
+Sorting scheme_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting canon_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_balancer.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting request_status: mod_proxy_scgi.c
+Sorting check_trans: mod_proxy_wstunnel.c
+Sorting pre_request: mod_proxy_balancer.c
+Sorting post_request: mod_proxy_balancer.c
+Sorting session_encode: mod_session.c
+Sorting session_decode: mod_session.c
+Sorting session_load: mod_session_cookie.c mod_session_dbd.c
+Sorting session_save: mod_session_cookie.c mod_session_dbd.c
+Sorting monitor: mod_session_dbd.c
+Sorting section_post_config: mod_ssl.c
+Sorting ssl_conn_is_ssl: mod_ssl.c
+Sorting ssl_bind_outgoing: mod_ssl.c
+Sorting mpm: prefork.c
+Sorting mpm_query: prefork.c
+Sorting mpm_get_name: prefork.c
+Sorting drop_privileges: mod_unixd.c
+Sorting find_liveprop: mod_dav_fs.c mod_dav.c
+Sorting insert_all_liveprops: mod_dav.c mod_dav_fs.c
+Sorting deliver_report: mod_dav.c
+Sorting gather_reports: mod_dav.c
+Sorting gather_propsets: mod_dav_fs.c
+Sorting get_suexec_identity: mod_userdir.c
+  Hooked status_hook
+  Hooked status_hook
+  Hooked status_hook
+Sorting generate_log_id: mod_unique_id.c core.c
+Sorting pre_config: core.c mod_log_config.c mod_logio.c prefork.c mod_watchdog.c mod_unixd.c mod_authn_socache.c mod_authz_host.c mod_authz_core.c mod_auth_digest.c mod_cache_socache.c mod_dbd.c mod_headers.c mod_proxy.c mod_proxy_balancer.c mod_proxy_hcheck.c mod_slotmem_shm.c mod_ssl.c mod_rewrite.c mod_status.c core.c
+Sorting expr_lookup: core.c mod_proxy_hcheck.c mod_ssl.c core.c
+Sorting post_config: core.c mod_cache.c mod_include.c mod_cgi.c core.c mod_authn_socache.c mod_authz_host.c mod_auth_form.c mod_auth_digest.c mod_file_cache.c mod_cache_socache.c mod_dbd.c mod_ext_filter.c mod_deflate.c http_core.c mod_mime.c mod_headers.c mod_unique_id.c mod_remoteip.c mod_ssl.c mod_proxy.c mod_proxy_http.c mod_proxy_wstunnel.c mod_proxy_balancer.c mod_lbmethod_byrequests.c mod_lbmethod_bytraffic.c mod_lbmethod_bybusyness.c mod_lbmethod_heartbeat.c mod_dav.c mod_status.c mod_rewrite.c mod_proxy_hcheck.c mod_watchdog.c mod_proxy_express.c mod_slotmem_shm.c
+Sorting create_connection: core.c
+Sorting pre_connection: mod_dumpio.c mod_logio.c mod_remoteip.c mod_ssl.c core.c
+Sorting check_config: core.c mod_info.c mod_authz_core.c mod_log_config.c prefork.c mod_rewrite.c
+Sorting test_config: core.c mod_unixd.c mod_ssl.c
+Sorting translate_name: mod_log_debug.c mod_rewrite.c mod_proxy.c mod_proxy_express.c mod_file_cache.c mod_alias.c mod_userdir.c mod_vhost_alias.c core.c
+Sorting map_to_storage: core.c mod_log_debug.c mod_proxy.c http_core.c http_core.c core.c
+Sorting open_logs: prefork.c core.c mod_log_config.c
+Sorting child_init: core.c core.c mod_authn_socache.c mod_auth_digest.c mod_cache_socache.c mod_watchdog.c mod_dbd.c mod_log_config.c mod_unique_id.c mod_proxy_balancer.c mod_proxy.c mod_ssl.c mod_status.c mod_rewrite.c
+Sorting handler: core.c mod_cache.c mod_log_debug.c mod_proxy.c mod_proxy_balancer.c mod_auth_form.c mod_auth_form.c mod_auth_form.c mod_dav.c mod_status.c mod_autoindex.c mod_info.c mod_cgi.c mod_negotiation.c mod_rewrite.c mod_file_cache.c mod_actions.c core.c
+Sorting type_checker: mod_log_debug.c mod_negotiation.c mod_mime.c core.c
+Sorting fixups: core.c mod_log_debug.c mod_rewrite.c mod_proxy.c mod_auth_digest.c mod_env.c mod_session.c mod_ssl.c mod_dav.c mod_negotiation.c mod_alias.c mod_auth_basic.c mod_include.c mod_headers.c mod_dir.c mod_speling.c mod_rewrite.c
+Sorting create_request: core.c http_core.c
+Sorting create_req: core.c
+Sorting pre_mpm: core.c
+Sorting child_status: core.c
+Sorting insert_network_bucket: core.c
+Sorting dirwalk_stat: core.c
+Sorting open_htaccess: core.c
+Sorting optional_fn_retrieve: core.c mod_authn_file.c mod_authn_dbm.c mod_authn_dbd.c mod_authz_groupfile.c mod_authz_dbm.c mod_cgi.c
+Sorting get_pollfd_from_conn: core.c
+Sorting insert_filter: mod_log_debug.c core.c mod_filter.c mod_expires.c mod_session.c mod_request.c mod_logio.c mod_headers.c
+Sorting check_user_id: mod_log_debug.c mod_ssl.c mod_auth_basic.c mod_auth_form.c mod_auth_digest.c mod_authn_core.c
+Sorting auth_checker: mod_log_debug.c mod_ssl.c mod_authz_core.c
+Sorting access_checker_ex: mod_log_debug.c mod_authz_core.c
+Sorting access_checker: mod_allowmethods.c mod_log_debug.c mod_access_compat.c mod_ssl.c
+Sorting note_auth_failure: mod_auth_basic.c mod_auth_form.c mod_auth_digest.c
+Sorting post_read_request: mod_headers.c mod_remoteip.c mod_proxy.c mod_auth_digest.c mod_reqtimeout.c mod_unique_id.c mod_setenvif.c mod_ssl.c
+Sorting quick_handler: mod_cache.c mod_log_debug.c
+Sorting cache_status: mod_cache.c
+Sorting insert_error_filter: mod_cache.c mod_expires.c mod_session.c mod_headers.c
+Sorting post_connect: mod_dbd.c
+Sorting process_connection: mod_reqtimeout.c mod_ssl.c http_core.c
+Sorting pre_read_request: mod_reqtimeout.c
+Sorting http_scheme: mod_ssl.c http_core.c
+Sorting default_port: mod_ssl.c http_core.c
+Sorting log_transaction: mod_log_debug.c mod_log_config.c mod_logio.c
+Sorting pre_translate_name: mod_log_debug.c mod_proxy.c
+Sorting header_parser: mod_setenvif.c
+Sorting scheme_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting canon_handler: mod_proxy_wstunnel.c mod_proxy_http.c mod_proxy_fcgi.c mod_proxy_scgi.c mod_proxy_uwsgi.c mod_proxy_fdpass.c mod_proxy_ajp.c mod_proxy_balancer.c mod_proxy_connect.c mod_proxy_ftp.c
+Sorting request_status: mod_proxy_scgi.c
+Sorting check_trans: mod_proxy_wstunnel.c
+Sorting pre_request: mod_proxy_balancer.c
+Sorting post_request: mod_proxy_balancer.c
+Sorting session_encode: mod_session.c
+Sorting session_decode: mod_session.c
+Sorting session_load: mod_session_cookie.c mod_session_dbd.c
+Sorting session_save: mod_session_cookie.c mod_session_dbd.c
+Sorting monitor: mod_session_dbd.c
+Sorting section_post_config: mod_ssl.c
+Sorting ssl_conn_is_ssl: mod_ssl.c
+Sorting ssl_bind_outgoing: mod_ssl.c
+Sorting mpm: prefork.c
+Sorting mpm_query: prefork.c
+Sorting mpm_get_name: prefork.c
+Sorting drop_privileges: mod_unixd.c
+Sorting find_liveprop: mod_dav_fs.c mod_dav.c
+Sorting insert_all_liveprops: mod_dav.c mod_dav_fs.c
+Sorting deliver_report: mod_dav.c
+Sorting gather_reports: mod_dav.c
+Sorting gather_propsets: mod_dav_fs.c
+Sorting get_suexec_identity: mod_userdir.c
+Sorting status_hook: mod_rewrite.c mod_rewrite.c mod_rewrite.c
+[+] Sending buf GET /ftp/ HTTP/1.1
+Host: 127.0.0.1:8080
+User-Agent: curl/8.5.0
+Accept: */*
+
+
+[+] Received 
+[+] Done
+dog.c(500): AH02977: Watchdog: found child providers.
+[Mon Jul 21 17:09:42.145866 2025] [watchdog:debug] [pid 403324:tid 403324] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_singleton_).
+[Mon Jul 21 17:09:42.145874 2025] [watchdog:debug] [pid 403324:tid 403324] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_default_).
+[Mon Jul 21 17:09:42.145888 2025] [watchdog:debug] [pid 403324:tid 403324] mod_watchdog.c(508): AH02978: Watchdog: Looking for child (_proxy_hcheck_).
+[Mon Jul 21 17:09:42.145955 2025] [watchdog:debug] [pid 403324:tid 403324] mod_watchdog.c(534): AH02979: Watchdog: Created singleton mutex (_proxy_hcheck_).
+[Mon Jul 21 17:09:42.146001 2025] [core:warn] [pid 403324:tid 403324] AH00098: pid file /home/oof/apache-afl/install_dir/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Jul 21 17:09:42.147379 2025] [watchdog:debug] [pid 403324:tid 403324] mod_watchdog.c(582): AH02981: Watchdog: Created child worker thread (_proxy_hcheck_).
+[Mon Jul 21 17:09:42.147426 2025] [proxy:debug] [pid 403324:tid 403324] proxy_util.c(2256): AH00925: initializing worker ftp://127.0.0.1:8081/ shared
+[Mon Jul 21 17:09:42.147458 2025] [proxy:debug] [pid 403324:tid 403324] proxy_util.c(2327): AH00927: initializing worker ftp://127.0.0.1:8081/ local
+[Mon Jul 21 17:09:42.147709 2025] [proxy:debug] [pid 403324:tid 403324] proxy_util.c(2375): AH00931: initialized single connection worker in child 403324 for (127.0.0.1:8081)
+[Mon Jul 21 17:09:42.147750 2025] [proxy:debug] [pid 403324:tid 403324] proxy_util.c(2256): AH00925: initializing worker proxy:reverse shared
+[Mon Jul 21 17:09:42.147761 2025] [proxy:debug] [pid 403324:tid 403324] proxy_util.c(2327): AH00927: initializing worker proxy:reverse local
+[Mon Jul 21 17:09:42.147957 2025] [watchdog:debug] [pid 403324:tid 403327] mod_watchdog.c(168): AH02972: Singleton Watchdog (_proxy_hcheck_) running
+[Mon Jul 21 17:09:42.147969 2025] [proxy:debug] [pid 403324:tid 403324] proxy_util.c(2375): AH00931: initialized single connection worker in child 403324 for (*:80)
+[Mon Jul 21 17:09:42.148018 2025] [proxy_hcheck:debug] [pid 403324:tid 403327] mod_proxy_hcheck.c(998): AH03258: _proxy_hcheck_ watchdog started.
+[Mon Jul 21 17:09:42.155913 2025] [proxy_hcheck:debug] [pid 403324:tid 403327] mod_proxy_hcheck.c(1012): AH03313: apr_thread_pool_create() with 16 threads succeeded
+[Mon Jul 21 17:09:42.311721 2025] [proxy_hcheck:debug] [pid 403324:tid 403326] mod_proxy_hcheck.c(1087): AH03261: stopping _proxy_hcheck_ watchdog.
+[Mon Jul 21 17:09:42.357444 2025] [watchdog:debug] [pid 403324:tid 403327] mod_watchdog.c(257): AH02973: Singleton Watchdog (_proxy_hcheck_) stopping

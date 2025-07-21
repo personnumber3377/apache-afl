@@ -1,0 +1,59 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /s/K HTTP/1.1
+pgrade: http1.1,Host: 127.0.0.-if-ca1:8080
+Authorization: Digest username="user1", reGET /e//////st: www.examindex.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OPTIONS /%00 HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nGET /f HTTP/1.1
+Host:CHECKOUT.1:8080
+Connection: keep-alive
+sTTP/1.1
+Host: www.execþþþþþþþþþþþþþþþþþþþ-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+sec-ch-ua-mobil

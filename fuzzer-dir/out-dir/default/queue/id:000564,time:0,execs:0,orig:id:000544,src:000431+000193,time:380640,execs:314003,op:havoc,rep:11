@@ -1,0 +1,23 @@
+GET /w HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google
+sec-ch-ua-mobile: ?0
+sec-mobile: ?0
+sec-#h-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: 0
+Authorization: Digest usernMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/de2
+
+
+Upgrade: http1537.36ange;v=b3;qext/html,appzication/xht www.de
+UpgradexamplecomUt: ml+xml,application/xml;q=0.9,image/fvif,image/webp,image/fpng,*/*;q=0.8,application/signed-exch
+Accept: t=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+dowsSec-Fetch-User: ?1
+Zec-Fetch-Dest: document
+\pgrade: httding: gzip, deflate, br, zstd
+Accept-Language: fi,en-US;q0-9=0.9,en;q=0.8,es;q=0.7
+

@@ -1,0 +1,12 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+sOPTIONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+44330e32", uri="/ff/", cnonce="NWE5NDUxYmMyNWUzZDFmN2ViNGNlMTU1MTZjM2JkMzA=", nc=00000001, qop=auth, re

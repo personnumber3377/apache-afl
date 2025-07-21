@@ -1,0 +1,32 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /s/K HTTP/1.1
+pgrade: http1.1,Host: 127.0.0.1:8080
+Authorization: Digest username="use@1", reGZT /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTGONS /%00 HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+4GET ///////////f HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Not)A;Brand";v="8", "Chro

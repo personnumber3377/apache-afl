@@ -1,0 +1,6 @@
+MOBE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f18144330e32", uri="/ff/", cnonce="NWE5NDUxYmMyNWUzZDFmN2ViNGNlMTU1MTZjM2JkMzA=", nc=00000001, qop=auth, response="3bee47705e57bbaa999dc2f30a26dfba", algorithm=MD5
+User-Agent: curl/8.5.0
+Accept: */*
+

@@ -1,0 +1,33 @@
+GET /x-gzipe//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /s// HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1", reGET /e//////index.html HTTP/1.1
+Hmst: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS /$00 HTTP/1.1
+Host: 12GET /f HTTP/1.1
+Host:GET7.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrad /p//////index.html HTTP/1.1
+e-Insecure-Requests: 1
+User-Agent: Moz

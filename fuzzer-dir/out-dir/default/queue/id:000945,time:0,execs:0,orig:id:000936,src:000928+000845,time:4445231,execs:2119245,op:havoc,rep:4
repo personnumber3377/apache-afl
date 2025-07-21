@@ -1,0 +1,9 @@
+MOVE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+                 Authorization: DigesDELETEt username="user1t: 127.0.0.1:8080
+   nc=00000001, , realm="DAV-upload", nonce="w7O", nc=00FLWU6BgA=6637d807db2e677058ae7c11faIf1ÿ44330eM2JkMzA=", nc=00 cnonce="NWE5NDUxYmZyNWUzZD algorithm=MD5
+			JkMzA=", nc=00000001, qop=auth, response="3bee4780
+                 Authori705e57bbaa9=", nc=00 cnonce="NWE5NDUxYm99dc2_30a26dfba", alg~rithm=M‡5
+User-Agent: curl/8.5.0
+Accept: */*
+

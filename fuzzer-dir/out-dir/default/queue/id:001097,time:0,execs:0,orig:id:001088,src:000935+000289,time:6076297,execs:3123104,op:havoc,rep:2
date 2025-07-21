@@ -1,0 +1,12 @@
+MOVE /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+        "
+      Authorization: Digest username="user1jM2Jkde
+Upgrade: http1.0,000000, cnoncelm="DAV-upload", non1:8080
+        "
+      ce="w7O", nc=00FLWU6BgA=6637d807db2e677058ae7c11faIf1ÿ44330eM2JkMzA=", nc=00 cnonce="NWEh-uaeezÿ.1
+-aliveSta5NDUxYmZyNWUzZD, alglVcation/x
+			JkMzA=", nc=0000+001, qop=auth, response="3bee47705e57bbaa9=", nc=00 cnonce=NWE5NDUxYm99dc2_30a26dSba", alg~rithm=M‡5
+User-Agent: curl/8.5.0
+Accept: */*
+

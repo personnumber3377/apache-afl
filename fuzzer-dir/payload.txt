@@ -1,0 +1,3 @@
+220 FuzzFTP ready
+ABC331 Please specify the password.
+ABC230 Login successful.

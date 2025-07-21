@@ -1,0 +1,32 @@
+GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+UNCHECKOUT /ff/ HTTP/1.1
+HosX: 127.0.GET /e//////index.html HTTP/1.1
+Host: www.examTEe.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+GET /e//////index.html HTTP/1.1
+Host: wwde
+Upgrade: htCone"
+
+UNCHECKOUT /ff/ HTTP/1.1TTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.4.0.1:8080
+AuUNLOCKthorizatOon: Digeoding:„/form-daer1", realm="DAV-upload", nonce="w7OFLWU6BgR=66377777777d8a07db2e677058ae7c11fa8f182ctionS;q=0.9,en;q: upgradempatible; MSIE 6.0; Windows thereal-laoundary=---------tm HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnp.ms-excel, appmication/vnd.ms-powerpoi‰t, application/msword, */*
+Referer: http

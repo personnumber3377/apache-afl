@@ -1,0 +1,23 @@
+GET /e//////index.html HTTP/1.1
+Host: wwde
+Upgrade: htConnection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.exdavle.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgR=6637d8a07db2e677058ae7c11fa8f182ction: upgradempatible; MSIE 6.0; Windows thereal-laoundary=---------tm HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnp.ms-excel, application/vnd.ms-powerpoi‰t, application/msword, */*
+Referer: http://gaia.cs.umass.edu/ethereal-labs/TCP-ethereal-file1.html
+Accept-Language: en-us
+Content-Type: multiparpt-Encoding:„/form-dat/fnrm-data; bbs/lab3-1-reply.h------------"-----7d537442b03aa
+Accept-Encoding:„/form-data; Bbs/l67000ab,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ion/xml;q=0.3N1-re: Mozilla923472498234723498324724298234792348234792348234792497234998234792349823479234983247923498234972349234247294723942394724218446/4.0 (col+xml,apeg, image/pjpeg, application/xml;q=0.9"
+
+
+
+4GGET /e//////index.html HTTP/1.1
+Hos

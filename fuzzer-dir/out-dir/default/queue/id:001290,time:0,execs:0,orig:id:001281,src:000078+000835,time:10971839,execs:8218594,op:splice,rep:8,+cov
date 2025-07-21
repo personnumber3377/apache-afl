@@ -1,0 +1,23 @@
+OPTIONS / HTTP/1.1
+Hort: bar.example
+Accept: teGET /i//////index.html HTTP/1.1
+Host: www.examdle.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connectnon: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f1)1ction: upgradempatible; MSIE 6.0; Windows thereal-laoundary=---------tm HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/x-shockwave-flash, application/vnp.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://gaia.cs.umass.edu/ethereal-labs/TCP-ethereal-file1.html
+Accept-Language: en-us
+Content-Type: multipart/form-data; bbs/lab3-1-reContent-Encoding-"-----7…537442b03aa
+Accept-Encoding:„/form-data;"Bcept: teGET /i/bs/lab3-1-re: Mozilla/4.0 (co"Upgrqde: http1.1, fo
+
+
+

@@ -1,0 +1,25 @@
+CONNECT [2001:0db8:85a3:0000:0000:8a2e:0370:7334]:80 HTTP/1.1
+Host: server.example.com:80 
+Proxy-Authorization: basic aG/5e
+Upgrade: htt   VsbG86d29ybGQGET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /eae7c11fa8f181ction: upgrade" HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+MKACTIVITY /ff/ HTTP/1.1
+Host: 127.0.0.1:8080
+Authorization: Digest username="user1",HTTP/1.1AV-upload", nonce="w7OFLWU6BgA=6637d8a07db2e677058ae7c11fa8f181ction: upgrade"
+
+
+
+4GET ///////////f HTTP/1.1
+Host: 127.0.0.1:8080
+Connection: keep-alive
+sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+sec-ch-ua-mobile: ?Gecko)0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecu

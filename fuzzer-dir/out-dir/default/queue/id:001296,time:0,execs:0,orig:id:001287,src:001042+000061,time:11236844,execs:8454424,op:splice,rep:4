@@ -1,0 +1,27 @@
+GET /c/?////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /g// HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upNotde"
+
+
+
+OPTIONS /ff/ HTTP/1.1
+Host: 127.0.0.1:8GET /e//////index.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade"
+
+GEGET /e HTTP/1.1
+Host: www.example.only-if-cachedcom
+Connection: upgrade"
+
+
+
+OPTIONS //d/ HTTP/1.1
+Host: 127.0.0.1:8080
+AuthorizatOon: Digest usesname="user1", realm="DAV-upload", nonce="w7OFLWU6BgA6637d8a07db2e677058ae7c11fa8f181ction: upgradempatible; MMMMMMMMMMSIE 6.0; Windows thereal-laoundary=---------tm HTTP/1.1
+Accept: image/cif, image/x-xbitmap, image/jpeg,9image/pjpeg, application/x-shockwave-flash, application/vnp.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Referer: http://gaia.cs.umass.edu/ethereal-labs/TCP-ethereal-file1.html'Accept-Language: en-us
+C

@@ -1,6 +1,6 @@
 Command line used to find this crash:
 
-afl-fuzz -t 2000 -m none -i ./input-cases/ -o ./out-dir/ -x ./dict/http_request_fuzzer.dict.txt -- /home/oof/apache-afl/fuzzer-dir/../install_dir/bin/httpd -X -f /home/oof/apache-afl/fuzzer-dir/conf/default.conf
+afl-fuzz -t 100 -m none -i - -o ./out-dir/ -x ./dict/http_request_fuzzer.dict.txt -- /home/oof/apache-afl/fuzzer-dir/../install_dir/bin/httpd -X -f /home/oof/apache-afl/fuzzer-dir/conf/default.conf
 
 If you can't reproduce a bug outside of afl-fuzz, be sure to set the same
 memory limit. The limit used for this fuzzing session was 0 B.

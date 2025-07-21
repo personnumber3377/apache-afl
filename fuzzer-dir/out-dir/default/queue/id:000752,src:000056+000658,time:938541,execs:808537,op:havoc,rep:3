@@ -1,0 +1,8 @@
+GET /d.var HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Firefox/0.10.1
+Accept: image/png,*;q=Refreshcept-Language: en-us "Not)A;Brand";v="oding: gzip,deflate
+Accept-Charset: utf-8;q=0.0;q=0.0
+Keep1Alive: 300
+Connection: keep-alive
+

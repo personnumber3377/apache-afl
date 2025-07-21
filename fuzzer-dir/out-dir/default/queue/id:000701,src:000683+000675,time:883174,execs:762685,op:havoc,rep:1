@@ -1,0 +1,5 @@
+GET /kk/GET$/index.html HTTP/1.1
+Host: www.example.com
+Connection: u,,,,,,,,,,,,,,s: X-P,,,,,,,,,,,,,,,,,,,,,,,,s: X-PINGOTHER, Content-Type
+
+p1.1, 

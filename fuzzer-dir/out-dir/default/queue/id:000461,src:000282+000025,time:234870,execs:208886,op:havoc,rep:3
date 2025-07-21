@@ -1,0 +1,6 @@
+GET /–ndex.html HTTP/1.1
+Host: www.example.com
+Connection: upgrade
+UpX-WebKit-CSPgrade: htts: X-PINGOTHER, Content-Type
+
+p1.1, /g HTT

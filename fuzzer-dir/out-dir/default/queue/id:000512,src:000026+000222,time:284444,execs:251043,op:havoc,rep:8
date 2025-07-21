@@ -1,0 +1,18 @@
+GET /ssi.shtml HTTP/1.1
+Host: 127.0.0.1:8080
+Connection:
+
+þkeep-alive
+sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v "138",t-Language: fi,en-US;q=0.9,en-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; xx.html64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/ssi.shtmlvif,image/webp,image/ssi.shtmlpng,*/9;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetcer: ?1
+Sec-Feww.example.com
+Connectept-Encoding: gzip, deflate, br, zstd
+Accep "Google Chrome";v="138"
+sec;q=0.8,es;q=0.7
+

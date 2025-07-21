@@ -1,0 +1,4 @@
+CONNECT [2222222222222222222222222222222270:7334]:80 HTTP/1.1
+Host:erver.e sehvfownerr.example.com:80 
+Proxy-Authorization: basic aGVsbG86d29ybGQ=
+

@@ -1,0 +1,6 @@
+GET /y/webp,image/ssi8HTTP/1.1
+Host: vww.exam€le.com
+Connection: upgrade
+Upgrade- GET /index.html HTTP/1.1
+Host) www.example.com
+Conne

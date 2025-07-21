@@ -1,0 +1,8 @@
+LABEL
+GET /index.hGET /f
+Connec•ion:ml ,TTP/1.1
+Host: www.example.n:m
+TTP/1.1
+Host: www.example.com
+Connectian: upgrade
+Upgrade

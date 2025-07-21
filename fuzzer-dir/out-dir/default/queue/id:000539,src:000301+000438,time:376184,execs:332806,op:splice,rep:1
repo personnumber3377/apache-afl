@@ -1,0 +1,6 @@
+GET127.0.0.1 /index.h•ml HTTP/1.1
+Host: www.example.com
+Connection: upgrade
+Upgrade: http1.1, fo+   Ucgrad: 15
+
+GET /index.h

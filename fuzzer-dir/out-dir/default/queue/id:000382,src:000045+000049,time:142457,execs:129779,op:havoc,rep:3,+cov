@@ -1,0 +1,4 @@
+CONNECT [2001:0db8:85a3:0000:0000::::::::::::::::::::::::::€ÿa2e:0370:7334]:80 HTTP/1.1
+Host: server.exa<d:e.com:80 
+Proxy-Authorization: basic aGVsbG86d29ybGQ=
+

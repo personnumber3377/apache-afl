@@ -1,0 +1,7 @@
+GET /index.html HTTP/1.1
+Host: Www.example.comww.example.com
+
+CGET /index.html HTTP/1.1
+Host: www.example.com
+upgrade
+ 

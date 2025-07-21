@@ -1,0 +1,5 @@
+CONNE /index.html HTTP/1.1
+Ho000:8a2e:0370:7334]:80 HTTP/1.1
+Host: server.exampl1.0om:80 
+Proxy-Authorization: basiX-Correlation-IDc aGVsbG86d29ybGQ=
+

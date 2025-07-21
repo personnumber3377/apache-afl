@@ -1,0 +1,9 @@
+GET /d.var HTTP/1.1
+Host: 127.0.0.1
+Us~r-Agent: Firefox/0.10.1
+Accept: image/png,,,,,,,,,,,,,O,,,,,,,,age: en-us-Alive: 300
+Connection: kzip,deflate
+Accept-Charset: utf-8;q=0.0;q=0.0
+Keep-Alive: 300
+Connection: keep-alive
+

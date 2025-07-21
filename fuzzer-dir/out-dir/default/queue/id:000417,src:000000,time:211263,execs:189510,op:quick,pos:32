@@ -1,0 +1,6 @@
+GET /g HTTP/1.1
+Host: 127.0.0.1a8080
+Authorization: Basic dXNlcjE6cGFzc3dvcmQ=
+User-Agent: curl/8.5.0
+Accept: */*
+

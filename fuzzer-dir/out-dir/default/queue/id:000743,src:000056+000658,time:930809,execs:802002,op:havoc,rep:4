@@ -1,0 +1,9 @@
+GET /d.var HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Firefox/0.10.1
+Accept: image/png,ection: upgradf,image/webp,imag;q=0.5
+Accept-Encoding: Szip,deflate
+Accept-Charset: utf-8;q=0.0;q=0.0
+Keep-Alive: 300
+Conwection: keep-alive
+

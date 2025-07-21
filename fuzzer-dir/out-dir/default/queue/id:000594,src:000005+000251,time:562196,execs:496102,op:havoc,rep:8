@@ -1,0 +1,18 @@
+GET /d HTTP/1.1
+Host: 127.0.0.1:8080
+fonnection: keep-alive
+sec-ch-ua: "Not)A;_rand";v="8", "Chromium";v="13ument
+Accept-Encoding:138"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+DNT: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: ,ozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safar…/537.36
+Accept: text/html,application/xhtml+xml,application/xcl;q=0.9,image/dvif,image/webp,image/dpng,*/*;q=0.8,application/sig@ed-exchange;v=b3Hq=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: fi,en-US;q=0.9,en;q=0.8,es;q=0.7
+

@@ -1,0 +1,6 @@
+GET /kk/GET$/index.html HTTP/1.1
+Host: ww___________________w.example.com
+Connection: upgrade
+Upgrade: htt,,,,,,,,,,,,,,,,,,,,,,,,s: X-PINGOTHER, Content-Type
+
+p1.1, 

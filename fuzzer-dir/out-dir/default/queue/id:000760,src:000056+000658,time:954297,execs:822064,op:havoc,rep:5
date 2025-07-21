@@ -1,0 +1,8 @@
+GET /d.var HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Fire~ox/0.10.1
+Accept: i.agage: en-us;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: utf-8;q=0.ts: X-PINGOTHER, Cont-Charset: utf-8;q=0.ive: 300
+Connection: keep-alive
+

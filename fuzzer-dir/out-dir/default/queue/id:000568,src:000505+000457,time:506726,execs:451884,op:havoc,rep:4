@@ -1,0 +1,17 @@
+GET /ssi.shtml?H3;q=0.7
+Sec-Fetch-Site::8080
+Connection: keep-alIve
+sec-ch-ua: "Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "WindowlIs"
+DNT: 1
+Upgrade-Unsecure-Requests: 1
+User-Age巘: Mozilla/5.0 (Windows NT 10.0; Win64Y x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+AWarningcc3942394724218ept: text/html,application/xhtml种种种种+xml,application/xml;q=0.9,image/ssi.shtmlvvvvvvvif,�mage/webp,image/ssi.shtmlpng,*/*;q=0.8,application/signed-exchange;v=bTTP/1.1
+Host: 127.0.0.1 none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: fi,en-US;q=019,en;q=0.8,es;q=4.7
+
